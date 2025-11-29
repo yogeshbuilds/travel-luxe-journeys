@@ -1,0 +1,114 @@
+{
+  "packages": [
+    {
+      "id": "dubai-1",
+      "country": "Dubai",
+      "name": "Luxury Dubai Experience",
+      "image": "/placeholder.svg",
+      "nights": 4,
+      "days": 5,
+      "price": 1299,
+      "offeredPrice": 999,
+      "description": "Experience the glamour of Dubai with stays at 5-star hotels, desert safari, and Burj Khalifa visit."
+    },
+    {
+      "id": "dubai-2",
+      "country": "Dubai",
+      "name": "Dubai Family Package",
+      "image": "/placeholder.svg",
+      "nights": 5,
+      "days": 6,
+      "price": 1599,
+      "offeredPrice": 1299,
+      "description": "Perfect family getaway with theme parks, aquarium visits, and luxury beach resort stay."
+    },
+    {
+      "id": "usa-1",
+      "country": "USA",
+      "name": "New York City Delight",
+      "image": "/placeholder.svg",
+      "nights": 6,
+      "days": 7,
+      "price": 1899,
+      "offeredPrice": 1599,
+      "description": "Explore the Big Apple with Broadway shows, Statue of Liberty, and Manhattan luxury hotels."
+    },
+    {
+      "id": "usa-2",
+      "country": "USA",
+      "name": "West Coast Explorer",
+      "image": "/placeholder.svg",
+      "nights": 7,
+      "days": 8,
+      "price": 2199,
+      "offeredPrice": null,
+      "description": "Los Angeles, San Francisco, and Las Vegas tour with coastal drives and luxury accommodations."
+    },
+    {
+      "id": "thailand-1",
+      "country": "Thailand",
+      "name": "Tropical Paradise",
+      "image": "/placeholder.svg",
+      "nights": 5,
+      "days": 6,
+      "price": 899,
+      "offeredPrice": 699,
+      "description": "Phuket and Bangkok combo with island hopping, Thai spa, and beachfront resorts."
+    },
+    {
+      "id": "thailand-2",
+      "country": "Thailand",
+      "name": "Thailand Cultural Tour",
+      "image": "/placeholder.svg",
+      "nights": 6,
+      "days": 7,
+      "price": 1099,
+      "offeredPrice": 899,
+      "description": "Explore temples in Chiang Mai, floating markets in Bangkok, and luxury Thai resorts."
+    },
+    {
+      "id": "singapore-1",
+      "country": "Singapore",
+      "name": "Singapore Splendor",
+      "image": "/placeholder.svg",
+      "nights": 3,
+      "days": 4,
+      "price": 799,
+      "offeredPrice": 649,
+      "description": "Marina Bay, Gardens by the Bay, Sentosa Island, and luxury shopping experience."
+    },
+    {
+      "id": "singapore-2",
+      "country": "Singapore",
+      "name": "Singapore & Malaysia Combo",
+      "image": "/placeholder.svg",
+      "nights": 5,
+      "days": 6,
+      "price": 1199,
+      "offeredPrice": null,
+      "description": "Combine Singapore's modernity with Malaysia's charm in this dual-country package."
+    },
+    {
+      "id": "switzerland-1",
+      "country": "Switzerland",
+      "name": "Alpine Adventure",
+      "image": "/placeholder.svg",
+      "nights": 6,
+      "days": 7,
+      "price": 2499,
+      "offeredPrice": 2199,
+      "description": "Explore Swiss Alps with Zurich, Lucerne, Interlaken, and mountain train journeys."
+    },
+    {
+      "id": "switzerland-2",
+      "country": "Switzerland",
+      "name": "Swiss Luxury Escape",
+      "image": "/placeholder.svg",
+      "nights": 7,
+      "days": 8,
+      "price": 2999,
+      "offeredPrice": 2599,
+      "description": "Premium Swiss experience with luxury chalets, mountain excursions, and gourmet dining."
+    }
+  ]
+}
