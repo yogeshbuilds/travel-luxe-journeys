@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Search, ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import heroDubai from "@/assets/hero-dubai.jpg";
 import heroUsa from "@/assets/hero-usa.jpg";
@@ -47,7 +46,7 @@ const HeroCarousel = () => {
   };
 
   return (
-    <section className="relative h-[600px] overflow-hidden">
+    <section className="relative h-[300px] md:h-[500px] lg:h-[600px] overflow-hidden">
       {destinations.map((dest, index) => (
         <div
           key={dest.name}
@@ -64,21 +63,21 @@ const HeroCarousel = () => {
         </div>
       ))}
 
-      <div className="absolute inset-0 flex flex-col items-center justify-center z-10 px-4">
-        <h2 className="text-5xl md:text-6xl font-serif font-bold text-background mb-4 text-center animate-fade-in">
+      <div className="absolute inset-0 flex flex-col items-center justify-center z-10 px-3 md:px-4">
+        <h2 className="text-2xl md:text-4xl lg:text-5xl font-serif font-bold text-background mb-2 md:mb-4 text-center animate-fade-in">
           Experience Luxury Travel
           <br />
-          <span className="text-4xl md:text-5xl">Like Never Before</span>
+          <span className="text-xl md:text-3xl lg:text-4xl">Like Never Before</span>
         </h2>
 
-        <div className="w-full max-w-2xl mt-8 flex gap-2">
+        <div className="w-full max-w-2xl mt-4 md:mt-8 flex">
           <Input
             type="text"
             placeholder="Enter your Dream Destination"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && handleSearch()}
-            className="h-14 text-lg bg-background/90 backdrop-blur-sm"
+            className="h-10 md:h-12 lg:h-14 text-sm md:text-base bg-background/90 backdrop-blur-sm rounded-r-none"
             list="destinations"
           />
           <datalist id="destinations">
@@ -86,35 +85,25 @@ const HeroCarousel = () => {
               <option key={dest.name} value={dest.name} />
             ))}
           </datalist>
-          <Button variant="hero" size="lg" onClick={handleSearch} className="h-14 px-8">
-            <Search className="h-5 w-5" />
-          </Button>
+          <button
+            onClick={handleSearch}
+            className="px-4 md:px-6 lg:px-8 bg-secondary hover:bg-secondary/90 text-secondary-foreground h-10 md:h-12 lg:h-14 rounded-r-md transition-colors text-sm md:text-base font-medium"
+          >
+            Search
+          </button>
         </div>
       </div>
 
-      <button
-        onClick={prevSlide}
-        className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-background/20 hover:bg-background/40 backdrop-blur-sm text-background p-3 rounded-full transition-all"
-        aria-label="Previous slide"
-      >
-        <ChevronLeft className="h-6 w-6" />
-      </button>
-      <button
-        onClick={nextSlide}
-        className="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-background/20 hover:bg-background/40 backdrop-blur-sm text-background p-3 rounded-full transition-all"
-        aria-label="Next slide"
-      >
-        <ChevronRight className="h-6 w-6" />
-      </button>
 
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-2 z-20">
+
+      <div className="absolute bottom-4 md:bottom-8 left-1/2 -translate-x-1/2 flex gap-2 z-20">
         {destinations.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentSlide(index)}
-            className={`w-3 h-3 rounded-full transition-all ${
+            className={`w-2 h-2 md:w-3 md:h-3 rounded-full transition-all ${
               index === currentSlide
-                ? "bg-background w-8"
+                ? "bg-background w-6 md:w-8"
                 : "bg-background/50 hover:bg-background/75"
             }`}
             aria-label={`Go to slide ${index + 1}`}

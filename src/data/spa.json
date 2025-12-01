@@ -1,0 +1,24 @@
+{
+  "packages": [
+    {
+      "id": "silver",
+      "name": "Silver Full Body Massage Spa",
+      "tagline": "Starter Package \u2022 2 Hours",
+      "priceRange": "From \u20b94,000\u2013\u20b96,000*"
+    },
+    {
+      "id": "golden",
+      "name": "Golden Full Body Massage Spa",
+      "tagline": "Deep Relaxation \u2022 4 Hours",
+      "priceRange": "From \u20b97,000\u2013\u20b912,000*"
+    },
+    {
+      "id": "diamond",
+      "name": "Diamond Full Body Massage Spa",
+      "tagline": "Signature Retreat \u2022 6 Hours",
+      "priceRange": "From \u20b910,000\u2013\u20b918,000*"
+    }
+  ]
+}
+
+

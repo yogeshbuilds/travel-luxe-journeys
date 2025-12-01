@@ -1,0 +1,32 @@
+{
+  "sections": [
+    {
+      "id": "brandEndorsement",
+      "title": "Brand Endorsement",
+      "description": "Hire a brand ambassador to create a buzz in the market by promoting your brand, products, store launches, or services."
+    },
+    {
+      "id": "commercialVideo",
+      "title": "Commercial Video Shoutouts",
+      "description": "Get professional, home or studio-shot commercial videos recorded by celebrities for your brand promotions and marketing campaigns."
+    },
+    {
+      "id": "influencerMarketing",
+      "title": "Influencer Marketing",
+      "description": "Hire influencers and digital creators to promote your brand or store across social media, building reach and trust with your ideal audience."
+    },
+    {
+      "id": "celebrityAppearances",
+      "title": "Celebrity Appearances",
+      "description": "Invite celebrities for your corporate events, store openings, or personal celebrations to make every occasion unforgettable."
+    }
+  ],
+  "requirements": [
+    "Brand Endorsement",
+    "Commercial Video Shoutouts",
+    "Influencer Marketing",
+    "Celebrity Appearances"
+  ]
+}
+
+

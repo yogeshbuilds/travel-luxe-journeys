@@ -1,0 +1,674 @@
+[
+    {
+        "id": "dubai-classic-4n5d",
+        "country": "Dubai",
+        "destination_city": "Dubai",
+        "title": "Dubai Packages (04 Nights / 05 Days)",
+        "duration_nights": 4,
+        "duration_days": 5,
+        "starting_price_in_inr": 17999,
+        "price_note": "Approx. per person on twin sharing (check latest price on site)",
+        "package_type": "With Flights (likely) + Land",
+        "short_overview": "4N/5D Dubai trip with city tour, desert safari, canal cruise and Dubai Frame, including airport transfers and daily breakfast.",
+        "key_highlights": [
+            "Dubai city tour",
+            "Dubai Frame visit",
+            "Desert safari with dinner",
+            "Canal cruise with dinner",
+            "Return airport transfers"
+        ],
+        "inclusions": [
+            "4 nights accommodation with breakfast",
+            "Shared Dubai city tour",
+            "Desert safari with dinner (shared transfers)",
+            "Canal cruise with dinner (shared transfers)",
+            "Dubai Frame with private transfers",
+            "Return airport transfers",
+            "All applicable taxes"
+        ],
+        "exclusions": [
+            "Visa fees (if applicable)",
+            "Travel insurance",
+            "Lunches and unspecified dinners",
+            "Personal expenses and tips"
+        ]
+    },
+    {
+        "id": "dubai-distinct",
+        "country": "Dubai",
+        "destination_city": "Dubai",
+        "title": "Distinct Dubai",
+        "duration_nights": 7,
+        "duration_days": 8,
+        "starting_price_in_inr": 81020,
+        "price_note": "check_on_site",
+        "package_type": "Land Only",
+        "short_overview": "Signature Dubai holiday by EaseMyTrip with curated sightseeing, transfers and hotel stays.",
+        "key_highlights": [
+            "Guided Dubai sightseeing",
+            "Iconic landmarks and modern attractions",
+            "Pre-arranged transfers and stays"
+        ],
+        "inclusions": [
+            "Hotel accommodation",
+            "Airport\u2013hotel\u2013airport transfers",
+            "Selected city sightseeing tours",
+            "Daily breakfast (usually)"
+        ],
+        "exclusions": [
+            "International flights (if not specified)",
+            "Visa and insurance",
+            "Optional tours and activities"
+        ]
+    },
+    {
+        "id": "dubai-unforgettable",
+        "country": "Dubai",
+        "destination_city": "Dubai",
+        "title": "Unforgettable Dubai",
+        "duration_nights": 3,
+        "duration_days": 4,
+        "starting_price_in_inr": 50546,
+        "price_note": "4 Days / 3 Nights; price dynamic \u2013 check_on_site",
+        "package_type": "Land Only",
+        "short_overview": "Short 3N Dubai package focusing on nightlife and key attractions, from cities like New Delhi, Bangalore and Pune.",
+        "key_highlights": [
+            "Dubai nightlife experiences",
+            "Short getaway ideal for a long weekend",
+            "Airport transfers and guided tours"
+        ],
+        "inclusions": [
+            "3 nights accommodation",
+            "Airport transfers",
+            "Selected sightseeing / activities",
+            "Daily breakfast (typically)"
+        ],
+        "exclusions": [
+            "Flights to Dubai (if not bundled)",
+            "Visa, insurance and personal expenses"
+        ]
+    },
+    {
+        "id": "dubai-adventure-lovers",
+        "country": "Dubai",
+        "destination_city": "Dubai",
+        "title": "Dubai for Adventure Lovers",
+        "duration_nights": 4,
+        "duration_days": 5,
+        "starting_price_in_inr": 59210,
+        "price_note": "5 Days / 4 Nights as per static text; price check_on_site",
+        "package_type": "Land Only",
+        "short_overview": "Adventure-focused Dubai itinerary with thrilling activities along with classic city experiences.",
+        "key_highlights": [
+            "Desert adventure activities",
+            "Skyline and modern attractions",
+            "Curated for thrill-seekers"
+        ],
+        "inclusions": [
+            "Hotel stays",
+            "Airport transfers",
+            "Adventure excursions as per final itinerary"
+        ],
+        "exclusions": [
+            "Flights and visas",
+            "Non-mentioned meals",
+            "Personal expenses"
+        ]
+    },
+    {
+        "id": "dubai-ultimate-experience",
+        "country": "Dubai",
+        "destination_city": "Dubai",
+        "title": "Ultimate Dubai Experience",
+        "duration_nights": 5,
+        "duration_days": 6,
+        "starting_price_in_inr": 44575,
+        "price_note": "Includes Half-Day city tour etc.; actual values check_on_site",
+        "package_type": "Land Only",
+        "short_overview": "Comprehensive Dubai package with half-day city tour covering Dubai Creek, traditional souqs and major modern spots.",
+        "key_highlights": [
+            "Half-day Dubai city tour",
+            "Gold, spice and textile souks",
+            "Modern skyline photo spots"
+        ],
+        "inclusions": [
+            "Accommodation",
+            "City tour as per itinerary",
+            "Airport transfers (usually included)"
+        ],
+        "exclusions": [
+            "Optional excursions",
+            "Visa fees and insurance",
+            "Personal expenses"
+        ]
+    },
+    {
+        "id": "singapore-holiday-4n5d",
+        "country": "Singapore",
+        "destination_city": "Singapore",
+        "title": "Singapore Package (approx. 4N/5D deal page)",
+        "duration_nights": 4,
+        "duration_days": 5,
+        "starting_price_in_inr": 71964,
+        "price_note": "Deal page \u2013 check latest price on site",
+        "package_type": "Land Only / With Flights (check_on_site)",
+        "short_overview": "Classic Singapore holiday with airport transfers, city tour, Night Safari, Sentosa and Marina Bay attractions.",
+        "key_highlights": [
+            "Night Safari (SIC)",
+            "Half-day city tour",
+            "Marina Bay Sands SkyPark & Gardens by the Bay",
+            "Full-day Sentosa tour with Wings of Time show"
+        ],
+        "inclusions": [
+            "One-way private airport\u2013hotel transfer",
+            "Night Safari (seat-in-coach)",
+            "Half-day city tour (SIC)",
+            "Marina Bay Sands SkyPark + Gardens by the Bay combo (SIC)",
+            "Full-day Sentosa tour with cable car and Wings of Time",
+            "Return airport transfers (sharing)"
+        ],
+        "exclusions": [
+            "Lunches and personal expenses",
+            "Visa fees (if applicable)",
+            "Travel insurance"
+        ]
+    },
+    {
+        "id": "singapore-best-holiday",
+        "country": "Singapore",
+        "destination_city": "Singapore",
+        "title": "Best Singapore Holiday",
+        "duration_nights": 7,
+        "duration_days": 8,
+        "starting_price_in_inr": 92403,
+        "price_note": "check_on_site",
+        "package_type": "Land Only",
+        "short_overview": "EaseMyTrip\u2019s curated \u2018Best Singapore Holiday\u2019 covering popular attractions with transfers and stays.",
+        "key_highlights": [
+            "Signature Singapore attractions bundle",
+            "Airport transfers and city tour",
+            "Ideal for first-time visitors"
+        ],
+        "inclusions": [
+            "Hotel accommodation",
+            "Airport transfers",
+            "Key attraction tickets as per itinerary"
+        ],
+        "exclusions": [
+            "International flights (if not specified)",
+            "Non-mentioned meals",
+            "Personal expenses"
+        ]
+    },
+    {
+        "id": "singapore-vacay",
+        "country": "Singapore",
+        "destination_city": "Singapore",
+        "title": "Singapore Vacay",
+        "duration_nights": 4,
+        "duration_days": 5,
+        "starting_price_in_inr": 79778,
+        "price_note": "check_on_site",
+        "package_type": "Land Only",
+        "short_overview": "Relaxed Singapore vacation with hotels, transfers and main attractions bundled in.",
+        "key_highlights": [
+            "Flexible city exploration",
+            "Selected must-do attractions",
+            "Convenient transfers"
+        ],
+        "inclusions": [
+            "Accommodation",
+            "Transfers",
+            "Sightseeing vouchers / tickets (per final plan)"
+        ],
+        "exclusions": [
+            "Flights and visas",
+            "Meals not mentioned",
+            "Optional tours"
+        ]
+    },
+    {
+        "id": "singapore-exciting-vacation",
+        "country": "Singapore",
+        "destination_city": "Singapore",
+        "title": "Exciting Singapore Vacation",
+        "duration_nights": 5,
+        "duration_days": 6,
+        "starting_price_in_inr": 83769,
+        "price_note": "check_on_site",
+        "package_type": "Land Only",
+        "short_overview": "An activity-packed Singapore vacation including key experiences and transfers.",
+        "key_highlights": [
+            "Night experiences",
+            "Family-friendly attractions",
+            "Organised transfers"
+        ],
+        "inclusions": [
+            "Hotel stays",
+            "Airport transfers",
+            "Main sightseeing tours"
+        ],
+        "exclusions": [
+            "Flights",
+            "Visa, insurance and personal expenses"
+        ]
+    },
+    {
+        "id": "singapore-malaysia-thrilling",
+        "country": "Singapore",
+        "destination_city": "Singapore & Kuala Lumpur (multi-country)",
+        "title": "Thrilling Singapore and Malaysia",
+        "duration_nights": 4,
+        "duration_days": 5,
+        "starting_price_in_inr": 77380,
+        "price_note": "check_on_site",
+        "package_type": "Land Only",
+        "short_overview": "Combo holiday covering Singapore and Malaysia with guided sightseeing and transfers.",
+        "key_highlights": [
+            "Highlights of Singapore",
+            "Key attractions in Malaysia (typically Kuala Lumpur / Genting etc.)",
+            "Cross-border transfers arranged"
+        ],
+        "inclusions": [
+            "Accommodation in both countries",
+            "Inter-city/inter-country transfers",
+            "City tours and attraction tickets as per itinerary"
+        ],
+        "exclusions": [
+            "International flights",
+            "Visas for both countries",
+            "Meals not specified"
+        ]
+    },
+    {
+        "id": "usa-true-essence",
+        "country": "USA",
+        "destination_city": "Multi-city USA",
+        "title": "True Essence of USA",
+        "duration_nights": 6,
+        "duration_days": 7,
+        "starting_price_in_inr": 176590,
+        "price_note": "USA tour package of 6 nights & 7 days \u2013 price check_on_site",
+        "package_type": "Land Only",
+        "short_overview": "6N/7D USA itinerary featuring key East Coast highlights and city experiences.",
+        "key_highlights": [
+            "First two nights in one major city (per text snippet)",
+            "Multiple iconic attractions across USA East Coast",
+            "Land-only package \u2013 flights extra"
+        ],
+        "inclusions": [
+            "Hotel accommodation for 6 nights",
+            "Airport / inter-city transfers (per itinerary)",
+            "Guided sightseeing and attraction entry where mentioned"
+        ],
+        "exclusions": [
+            "International flights India\u2013USA\u2013India",
+            "US visa fees",
+            "Personal expenses and optional tours"
+        ]
+    },
+    {
+        "id": "usa-american-highlights",
+        "country": "USA",
+        "destination_city": "East Coast USA",
+        "title": "American Highlights",
+        "duration_nights": 6,
+        "duration_days": 7,
+        "starting_price_in_inr": 252091,
+        "price_note": "check_on_site",
+        "package_type": "Land Only",
+        "short_overview": "Curated East Coast USA package covering popular cities and landmarks.",
+        "key_highlights": [
+            "Major East Coast cities",
+            "Iconic attractions and guided tours"
+        ],
+        "inclusions": [
+            "Accommodation",
+            "City sightseeing as per itinerary",
+            "Transfers as mentioned"
+        ],
+        "exclusions": [
+            "International flights",
+            "US visa and insurance",
+            "Personal expenses"
+        ]
+    },
+    {
+        "id": "usa-grandeur",
+        "country": "USA",
+        "destination_city": "Multi-city USA",
+        "title": "Grandeur USA Tour",
+        "duration_nights": 4,
+        "duration_days": 5,
+        "starting_price_in_inr": 227867,
+        "price_note": "check_on_site",
+        "package_type": "Land Only",
+        "short_overview": "Comprehensive USA tour designed to cover multiple iconic cities and attractions.",
+        "key_highlights": [
+            "Multi-city coverage",
+            "Detailed guided sightseeing",
+            "Family-friendly itinerary"
+        ],
+        "inclusions": [
+            "Hotel stays in multiple cities",
+            "Transfers and tours per itinerary"
+        ],
+        "exclusions": [
+            "Flights (unless specified)",
+            "Visa and insurance",
+            "Optional excursions"
+        ]
+    },
+    {
+        "id": "usa-grand-usa-gd",
+        "country": "USA",
+        "destination_city": "Multi-city USA",
+        "title": "Grand USA GD",
+        "duration_nights": 5,
+        "duration_days": 6,
+        "starting_price_in_inr": 185012,
+        "price_note": "EMI info shown; check_on_site for price",
+        "package_type": "Land Only",
+        "short_overview": "Grand USA itinerary with EMI options, designed as a long-format multi-city tour.",
+        "key_highlights": [
+            "Extended USA coverage",
+            "EMI payment options",
+            "Multiple famous landmarks"
+        ],
+        "inclusions": [
+            "Hotels throughout the tour",
+            "Transfers",
+            "Sightseeing as per tour plan"
+        ],
+        "exclusions": [
+            "International flights",
+            "Visa and insurance",
+            "Optional tours and personal expenses"
+        ]
+    },
+    {
+        "id": "usa-american-dream-expedition",
+        "country": "USA",
+        "destination_city": "Multi-city USA",
+        "title": "American Dream Expedition",
+        "duration_nights": 6,
+        "duration_days": 7,
+        "starting_price_in_inr": 208112,
+        "price_note": "check_on_site",
+        "package_type": "Land Only",
+        "short_overview": "Themed USA itinerary positioned as an \u2018American Dream\u2019 experience, combining major sights and cities.",
+        "key_highlights": [
+            "Multiple city coverage",
+            "Classic American attractions"
+        ],
+        "inclusions": [
+            "Accommodation",
+            "Transfers and sightseeing per itinerary"
+        ],
+        "exclusions": [
+            "Flights",
+            "Visa, insurance, personal expenses"
+        ]
+    },
+    {
+        "id": "usa-american-adventure",
+        "country": "USA",
+        "destination_city": "Multi-city USA",
+        "title": "American Adventure",
+        "duration_nights": 4,
+        "duration_days": 5,
+        "starting_price_in_inr": 154145,
+        "price_note": "check_on_site",
+        "package_type": "Land Only",
+        "short_overview": "Adventure-oriented USA package with a focus on experiences across key destinations.",
+        "key_highlights": [
+            "Adventure-focused excursions",
+            "Varied city and nature stops"
+        ],
+        "inclusions": [
+            "Hotel stays",
+            "Transfers and tours per plan"
+        ],
+        "exclusions": [
+            "International flights",
+            "Visa, insurance, personal costs"
+        ]
+    },
+    {
+        "id": "thailand-explorer-city-coast",
+        "country": "Thailand",
+        "destination_city": "Bangkok & Coastal Thailand (e.g., Pattaya/Phuket etc.)",
+        "title": "Thailand Explorer: City & Coast Edition",
+        "duration_nights": 6,
+        "duration_days": 7,
+        "starting_price_in_inr": 58675,
+        "price_note": "6 Nights / 7 Days \u2013 price check_on_site",
+        "package_type": "Land Only",
+        "short_overview": "7-day Thailand itinerary combining a major city with coastal relaxation.",
+        "key_highlights": [
+            "2 nights in one city (e.g., Bangkok)",
+            "Coastal stay (e.g., Pattaya/Phuket) for the remaining nights",
+            "Land-only with transfers and sightseeing"
+        ],
+        "inclusions": [
+            "Accommodation for 6 nights",
+            "Airport and inter-city transfers",
+            "Selected excursions and city tours"
+        ],
+        "exclusions": [
+            "International flights",
+            "Thailand visa (if required)",
+            "Meals not listed, personal expenses"
+        ]
+    },
+    {
+        "id": "thailand-supersaver-with-flight",
+        "country": "Thailand",
+        "destination_city": "Typical Thailand circuit (e.g., Bangkok + Pattaya/Phuket)",
+        "title": "Thailand Supersaver with Flight",
+        "duration_nights": 4,
+        "duration_days": 5,
+        "starting_price_in_inr": 61295,
+        "price_note": "Includes flights \u2013 check_on_site",
+        "package_type": "With Flights",
+        "short_overview": "Budget-friendly Thailand holiday including flights, ideal for value-conscious travellers.",
+        "key_highlights": [
+            "Flights bundled with hotel + land arrangements",
+            "Ideal for first-time visitors on a budget"
+        ],
+        "inclusions": [
+            "Return international flights (as per package)",
+            "Hotel stays",
+            "Airport transfers",
+            "Sightseeing per itinerary"
+        ],
+        "exclusions": [
+            "Visa fees",
+            "Personal expenses",
+            "Meals not specified"
+        ]
+    },
+    {
+        "id": "thailand-fun-fiesta",
+        "country": "Thailand",
+        "destination_city": "Multi-city Thailand",
+        "title": "Thailand Fun Fiesta",
+        "duration_nights": 6,
+        "duration_days": 7,
+        "starting_price_in_inr": 52742,
+        "price_note": "Land Only \u2013 check_on_site",
+        "package_type": "Land Only",
+        "short_overview": "A fun-focused Thailand tour with beaches, nightlife and sightseeing.",
+        "key_highlights": [
+            "Beach and city combination",
+            "Nightlife and local experiences"
+        ],
+        "inclusions": [
+            "Accommodation",
+            "Transfers",
+            "Key tours and activities"
+        ],
+        "exclusions": [
+            "Flights",
+            "Visa and insurance",
+            "Personal expenses"
+        ]
+    },
+    {
+        "id": "thailand-blissful-getaway",
+        "country": "Thailand",
+        "destination_city": "Multi-city Thailand",
+        "title": "Blissful Thailand Getaway",
+        "duration_nights": 5,
+        "duration_days": 6,
+        "starting_price_in_inr": 63314,
+        "price_note": "Land Only \u2013 check_on_site",
+        "package_type": "Land Only",
+        "short_overview": "Relaxed Thailand getaway focused on beaches and laid-back sightseeing.",
+        "key_highlights": [
+            "Beach relaxation",
+            "Light, scenic sightseeing"
+        ],
+        "inclusions": [
+            "Hotel accommodation",
+            "Airport transfers",
+            "Sightseeing per itinerary"
+        ],
+        "exclusions": [
+            "International flights",
+            "Visa, insurance, personal spends"
+        ]
+    },
+    {
+        "id": "swiss-tour-packages-generic",
+        "country": "Switzerland",
+        "destination_city": "Multi-city Switzerland",
+        "title": "Switzerland Tour Packages (Landing Page)",
+        "duration_nights": 4,
+        "duration_days": 5,
+        "starting_price_in_inr": 241111,
+        "price_note": "Packages and prices vary \u2013 see listing on site",
+        "package_type": "Various",
+        "short_overview": "Landing page listing multiple Switzerland packages, often combining cities like Zurich, Geneva, Interlaken and Jungfraujoch.",
+        "key_highlights": [
+            "Curated Switzerland itineraries",
+            "Options for Jungfraujoch, Interlaken, Zermatt, Lucerne, etc."
+        ],
+        "inclusions": [
+            "Typically accommodation and breakfast",
+            "Swiss Travel Pass / transfers in many packages",
+            "City sightseeing in key Swiss towns"
+        ],
+        "exclusions": [
+            "International flights",
+            "Visa and insurance",
+            "Lunches, dinners unless specified"
+        ]
+    },
+    {
+        "id": "swiss-paris-summer-2026",
+        "country": "Switzerland",
+        "destination_city": "Paris & Swiss Cities",
+        "title": "Paris & Swiss Getaway \u2013 Summer 2026",
+        "duration_nights": 4,
+        "duration_days": 5,
+        "starting_price_in_inr": 169171,
+        "price_note": "Land Only \u2013 check_on_site",
+        "package_type": "Land Only",
+        "short_overview": "Combo Europe holiday featuring Paris along with key Swiss destinations in a single itinerary.",
+        "key_highlights": [
+            "Paris city sightseeing",
+            "Swiss Alpine scenery and cities",
+            "No-cost EMI options mentioned"
+        ],
+        "inclusions": [
+            "Accommodation across France & Switzerland",
+            "Inter-city transfers",
+            "Guided sightseeing tours as per itinerary"
+        ],
+        "exclusions": [
+            "International flights",
+            "Schengen visa, insurance",
+            "Personal expenses"
+        ]
+    },
+    {
+        "id": "swiss-exclusive-europe",
+        "country": "Switzerland",
+        "destination_city": "Multi-country Europe incl. Switzerland",
+        "title": "Exclusive Europe (with Swiss sector)",
+        "duration_nights": 7,
+        "duration_days": 8,
+        "starting_price_in_inr": 265891,
+        "price_note": "Europe multi-country \u2013 check_on_site",
+        "package_type": "Land Only",
+        "short_overview": "Exclusive Europe package likely including Swiss highlights together with other European countries.",
+        "key_highlights": [
+            "Swiss Alps sector (inferred from Europe itinerary)",
+            "Other major European capitals",
+            "EMI options mentioned"
+        ],
+        "inclusions": [
+            "Accommodations throughout Europe circuit",
+            "Inter-city coach/train transfers",
+            "Tours as per detailed Europe itinerary"
+        ],
+        "exclusions": [
+            "Flights",
+            "Schengen visa and travel insurance",
+            "Personal and optional expenses"
+        ]
+    },
+    {
+        "id": "swiss-zurich-packages",
+        "country": "Switzerland",
+        "destination_city": "Zurich",
+        "title": "Zurich Tour Packages",
+        "duration_nights": 7,
+        "duration_days": 8,
+        "starting_price_in_inr": 326746,
+        "price_note": "Listing page \u2013 multiple package options",
+        "package_type": "Various",
+        "short_overview": "Zurich-focused Swiss packages combining the cultural city with nearby scenic attractions.",
+        "key_highlights": [
+            "Zurich city exploration",
+            "Old Town and lakefront",
+            "Possible day trips to nearby mountains"
+        ],
+        "inclusions": [
+            "Accommodation in/around Zurich",
+            "City sightseeing",
+            "Transfers per package"
+        ],
+        "exclusions": [
+            "Flights",
+            "Visa, insurance, personal expenses"
+        ]
+    },
+    {
+        "id": "swiss-interlaken-packages",
+        "country": "Switzerland",
+        "destination_city": "Interlaken",
+        "title": "Interlaken Tour Packages",
+        "duration_nights": 5,
+        "duration_days": 6,
+        "starting_price_in_inr": 242070,
+        "price_note": "Listing page \u2013 multiple package options",
+        "package_type": "Various",
+        "short_overview": "Interlaken packages centred on Jungfrau region, lakes and nearby excursion points.",
+        "key_highlights": [
+            "Interlaken town",
+            "Nearby mountains such as Jungfrau region",
+            "Lake Brienz / Lake Thun excursions"
+        ],
+        "inclusions": [
+            "Stay in Interlaken",
+            "Local sightseeing and mountain excursions (per package)",
+            "Transfers"
+        ],
+        "exclusions": [
+            "International flights",
+            "Visa, insurance, extras"
+        ]
+    }
+]

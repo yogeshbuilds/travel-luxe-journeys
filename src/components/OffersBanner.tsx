@@ -1,21 +1,19 @@
 import { useState, useEffect } from "react";
 import { Tag, Calendar, Sparkles } from "lucide-react";
 
+
 const offers = [
   {
     icon: Tag,
     text: "₹1500 OFF on First Booking",
-    color: "from-primary to-primary/80",
   },
   {
     icon: Calendar,
     text: "Black Friday Sale - Up to 40% OFF",
-    color: "from-secondary to-secondary/80",
   },
   {
     icon: Sparkles,
     text: "Early Bird Special - Book 3 Months Advance & Save 25%",
-    color: "from-accent to-accent/80",
   },
 ];
 
@@ -32,15 +30,21 @@ const OffersBanner = () => {
   const CurrentIcon = offers[currentOffer].icon;
 
   return (
-    <section className="py-8 bg-muted">
+    <section className="py-6">
       <div className="container mx-auto px-4">
         <div
-          className={`bg-gradient-to-r ${offers[currentOffer].color} text-background py-6 px-8 rounded-lg shadow-medium flex items-center justify-center gap-4 transition-all duration-500`}
+          className="relative overflow-hidden rounded-lg shadow-strong min-h-[200px] md:min-h-[250px] flex items-center justify-center transition-all duration-500 bg-primary"
         >
-          <CurrentIcon className="h-8 w-8 animate-pulse" />
-          <p className="text-xl md:text-2xl font-bold text-center">
-            {offers[currentOffer].text}
-          </p>
+          {/* Dark overlay for better text readability */}
+          <div className="absolute inset-0 bg-black/20" />
+
+          {/* Content */}
+          <div className="relative z-10 flex flex-col items-center justify-center gap-3 md:gap-4 px-4 text-center">
+            <CurrentIcon className="h-8 w-8 md:h-10 md:w-10 text-secondary animate-pulse" />
+            <p className="text-lg md:text-xl lg:text-2xl font-bold text-background max-w-2xl">
+              {offers[currentOffer].text}
+            </p>
+          </div>
         </div>
       </div>
     </section>

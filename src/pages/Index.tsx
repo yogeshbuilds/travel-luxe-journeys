@@ -4,7 +4,6 @@ import CategoryNav from "@/components/CategoryNav";
 import TrendingDestinations from "@/components/TrendingDestinations";
 import OffersBanner from "@/components/OffersBanner";
 import SpecialDeals from "@/components/SpecialDeals";
-import LuxuryAddOns from "@/components/LuxuryAddOns";
 import AssistanceBanner from "@/components/AssistanceBanner";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Footer from "@/components/Footer";
@@ -18,7 +17,6 @@ const Index = () => {
       <TrendingDestinations />
       <OffersBanner />
       <SpecialDeals />
-      <LuxuryAddOns />
       <AssistanceBanner />
       <WhyChooseUs />
       <Footer />

@@ -1,0 +1,68 @@
+{
+  "startingPrice": 7000,
+  "startingLabel": "Per experience \u2022 Delhi NCR \u2022 Chauffeur driven",
+  "carCategories": [
+    {
+      "label": "Audi A6 / BMW 5 Series / Mercedes E-Class",
+      "note": "from approx. \u20b97,000 base"
+    },
+    {
+      "label": "BMW X5 / Mercedes ML",
+      "note": "from approx. \u20b97,000 + \u20b94,500"
+    },
+    {
+      "label": "Mercedes S-Class / Jaguar",
+      "note": "from approx. \u20b97,000 + \u20b911,000"
+    }
+  ],
+  "extras": {
+    "extraKmFrom": 110,
+    "extraHourFrom": 1100
+  },
+  "premiumCarsInIndia": [
+    "Audi A6",
+    "Audi Q7",
+    "BMW 5 Series",
+    "BMW 7 Series",
+    "Mercedes E-Class",
+    "Mercedes S-Class",
+    "Range Rover Vogue",
+    "Porsche Cayenne"
+  ],
+  "premiumCars": [
+    {
+      "name": "Audi A6",
+      "image": "/src/assets/cars/audi-a6.jpg"
+    },
+    {
+      "name": "Audi Q7",
+      "image": "/src/assets/cars/audi-q7.jpg"
+    },
+    {
+      "name": "BMW 5 Series",
+      "image": "/src/assets/cars/bnw5.jpg"
+    },
+    {
+      "name": "BMW 7 Series",
+      "image": "/src/assets/cars/bmw7.jpg"
+    },
+    {
+      "name": "Mercedes E-Class",
+      "image": "/src/assets/cars/mercedes-e-class.jpg"
+    },
+    {
+      "name": "Mercedes S-Class",
+      "image": "/src/assets/cars/mercedes-s-class.jpg"
+    },
+    {
+      "name": "Range Rover Vogue",
+      "image": "/src/assets/cars/Range-Rover.jpeg"
+    },
+    {
+      "name": "Porsche Cayenne",
+      "image": "/src/assets/cars/proche.jpg"
+    }
+  ]
+}
+
+

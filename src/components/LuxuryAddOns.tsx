@@ -23,20 +23,21 @@ const addons = [
 
 const LuxuryAddOns = () => {
   return (
-    <section className="py-16 bg-muted">
+    <section className="py-6 bg-muted">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-serif font-bold text-center mb-12 text-foreground">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-serif font-bold text-center mb-8 md:mb-12 text-foreground">
           Luxury Add-Ons
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        {/* Mobile: Horizontal scroll, Desktop: Grid */}
+        <div className="flex md:grid md:grid-cols-3 gap-4 md:gap-8 overflow-x-auto md:overflow-x-visible pb-4 md:pb-0 scrollbar-hide">
           {addons.map((addon) => (
             <Card
               key={addon.name}
-              className="overflow-hidden group hover:shadow-strong transition-all"
+              className="min-w-[280px] md:min-w-auto overflow-hidden group hover:shadow-strong transition-all"
             >
               <CardContent className="p-0">
-                <div className="relative h-[300px] overflow-hidden">
+                <div className="relative h-[250px] md:h-[280px] lg:h-[300px] overflow-hidden">
                   <img
                     src={addon.image}
                     alt={addon.name}
@@ -44,11 +45,11 @@ const LuxuryAddOns = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                 </div>
-                <div className="p-6">
-                  <h3 className="text-2xl font-serif font-bold mb-2 text-foreground">
+                <div className="p-4 md:p-6">
+                  <h3 className="text-lg md:text-xl lg:text-2xl font-serif font-bold mb-2 text-foreground">
                     {addon.name}
                   </h3>
-                  <p className="text-muted-foreground">{addon.description}</p>
+                  <p className="text-sm md:text-base text-muted-foreground">{addon.description}</p>
                 </div>
               </CardContent>
             </Card>
