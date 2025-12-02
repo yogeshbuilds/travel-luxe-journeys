@@ -57,7 +57,7 @@ const RussianSpa = () => {
                 >
                   <div className="relative h-32 md:h-40">
                     <img
-                      src={luxurySpa}
+                      src={pkg.image}
                       alt={`${pkg.name}`}
                       className="w-full h-full object-cover"
                     />
