@@ -2,8 +2,17 @@ import { useState, FormEvent } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import luxurySpa from "@/assets/luxury-spa.jpg";
+import spa1 from "@/assets/spa/spa1.png";
+import spa2 from "@/assets/spa/spa2.png";
+import spa3 from "@/assets/spa/spa3.webp";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import spaData from "@/data/spa.json";
+
+const spaImages: Record<string, string> = {
+  silver: spa1,
+  golden: spa2,
+  diamond: spa3,
+};
 
 const RussianSpa = () => {
   return (
@@ -57,7 +66,7 @@ const RussianSpa = () => {
                 >
                   <div className="relative h-32 md:h-40">
                     <img
-                      src={pkg.image}
+                      src={spaImages[pkg.id] || luxurySpa}
                       alt={`${pkg.name}`}
                       className="w-full h-full object-cover"
                     />

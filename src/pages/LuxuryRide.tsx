@@ -2,8 +2,27 @@ import { useState, FormEvent } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import luxuryCar from "@/assets/luxury-car.jpg";
+import audiA6 from "@/assets/cars/audi-a6.jpg";
+import audiQ7 from "@/assets/cars/audi-q7.jpg";
+import bmw5 from "@/assets/cars/bnw5.jpg";
+import bmw7 from "@/assets/cars/bmw7.jpg";
+import mercedesEClass from "@/assets/cars/mercedes-e-class.jpg";
+import mercedesSClass from "@/assets/cars/mercedes-s-class.jpg";
+import rangeRover from "@/assets/cars/Range-Rover.jpeg";
+import porsche from "@/assets/cars/proche.jpg";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import rideData from "@/data/luxuryRide.json";
+
+const carImages: Record<string, string> = {
+  "Audi A6": audiA6,
+  "Audi Q7": audiQ7,
+  "BMW 5 Series": bmw5,
+  "BMW 7 Series": bmw7,
+  "Mercedes E-Class": mercedesEClass,
+  "Mercedes S-Class": mercedesSClass,
+  "Range Rover Vogue": rangeRover,
+  "Porsche Cayenne": porsche,
+};
 
 const LuxuryRide = () => {
   return (
@@ -69,7 +88,7 @@ const LuxuryRide = () => {
                   >
                     <div className="h-28 md:h-32 overflow-hidden">
                       <img
-                        src={car.image || luxuryCar}
+                        src={carImages[car.name] || luxuryCar}
                         alt={car.name}
                         className="w-full h-full object-cover"
                       />
