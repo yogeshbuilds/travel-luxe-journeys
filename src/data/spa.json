@@ -5,7 +5,7 @@
       "name": "Silver Full Body Massage Spa",
       "tagline": "Starter Package • 2 Hours",
       "priceRange": "From ₹4,000–₹6,000*",
-      "image": "/src/assets/spa-assets/spa1.jpg",
+      "image": "/assets/spa-assets/spa1.jpg",
       "description": "Perfect for a quick reset—a focused full-body or area-specific massage that works on muscle flexibility and deep relaxation.",
       "duration": "2 Hours",
       "sessions": "One Session",
@@ -22,7 +22,7 @@
       "name": "Golden Full Body Massage Spa",
       "tagline": "Deep Relaxation • 4 Hours",
       "priceRange": "From ₹7,000–₹12,000*",
-      "image": "/src/assets/spa-assets/spa2.jpg",
+      "image": "/assets/spa-assets/spa2.jpg",
       "description": "Extended spa time with options like hot oil or hot stone massage to revitalize your skin, ease tension, and calm your mind.",
       "duration": "4 Hours",
       "sessions": "One Session",
@@ -41,7 +41,7 @@
       "name": "Diamond Full Body Massage Spa",
       "tagline": "Signature Retreat • 6 Hours",
       "priceRange": "From ₹10,000–₹18,000*",
-      "image": "/src/assets/spa-assets/spa3.png",
+      "image": "/assets/spa-assets/spa3.png",
       "description": "A complete spa journey with essential oils, steam, multiple massage techniques, and body wrap for a glowing, relaxed you.",
       "duration": "6 Hours",
       "sessions": "One Session",
@@ -187,42 +187,42 @@
       "id": "foreigner-therapist",
       "name": "Foreigner Therapist",
       "description": "Experience authentic international massage techniques from Russia, Thailand, Afghanistan, and Uzbekistan. Our certified foreign therapists bring traditional methods combined with contemporary comfort.",
-      "image": "/src/assets/spa-assets/spa4.jpg",
+      "image": "/assets/spa-assets/spa4.jpg",
       "highlight": "International expertise for authentic experience"
     },
     {
       "id": "five-star-hotel",
       "name": "5-Star Hotel Spa",
       "description": "Indulge in luxury spa experiences at premium 5-star hotel outlets across Delhi NCR. Enjoy world-class facilities with Jacuzzi, steam, and sauna at just ₹15,999.",
-      "image": "/src/assets/spa-assets/spa5.jpg",
+      "image": "/assets/spa-assets/spa5.jpg",
       "highlight": "Luxurious ambiance with premium amenities"
     },
     {
       "id": "home-spa",
       "name": "Home Spa Service",
       "description": "Relax in the comfort of your own home. Our professional therapists come to your location with complete spa equipment for personalized sessions.",
-      "image": "/src/assets/spa-assets/spa6.png",
+      "image": "/assets/spa-assets/spa6.png",
       "highlight": "Convenience at your doorstep"
     },
     {
       "id": "thai-massage",
       "name": "Thai Massage",
       "description": "Ancient Thai massage techniques combining stretching, acupressure, and joint mobilization. Perfect for improving flexibility and energy balance.",
-      "image": "/src/assets/spa-assets/spa7.jpg",
+      "image": "/assets/spa-assets/spa7.jpg",
       "highlight": "Traditional healing from Thailand"
     },
     {
       "id": "b2b-therapy",
       "name": "Body-to-Body Therapy",
       "description": "Premium body-to-body massage service ensuring 100% safety and privacy. Fully private sessions with professional therapists.",
-      "image": "/src/assets/spa-assets/spa8.png",
+      "image": "/assets/spa-assets/spa8.png",
       "highlight": "Private & professional service"
     },
     {
       "id": "night-spa",
       "name": "Night Spa Service",
       "description": "Perfect relaxation after a tiring day. Our full night spa sessions are available for booking anytime, providing complete stress relief and rejuvenation.",
-      "image": "/src/assets/spa-assets/spa9.png",
+      "image": "/assets/spa-assets/spa9.png",
       "highlight": "Evening relaxation available 24/7"
     }
   ],
@@ -231,7 +231,7 @@
       "type": "Russian Therapists",
       "description": "Our certified Russian therapists are trained in authentic Russian massage methods. A Russian massage improves blood circulation, reduces stress, eases muscle pain, and enhances skin health. Experience the same expert care whether you visit Mahipalpur, Lajpat Nagar, or any of our outlets.",
       "icon": "🇷🇺",
-      "image": "/src/assets/therepist/russian.jpg",
+      "image": "/assets/therepist/russian.jpg",
       "expertise": [
         "Authentic Russian massage techniques",
         "Deep tissue & muscle therapy",
@@ -243,7 +243,7 @@
       "type": "Indian Therapists",
       "description": "Experienced Indian therapists trained in body massage and wellness treatments. Available at outlets in Noida, Aerocity, Karol Bagh, and Mahipalpur. Our Indian therapists prioritize customer comfort with complete focus on hygiene and professional care.",
       "icon": "🇮🇳",
-      "image": "/src/assets/therepist/indian.jpg",
+      "image": "/assets/therepist/indian.jpg",
       "expertise": [
         "Traditional body massage",
         "Wellness treatments",
@@ -255,7 +255,7 @@
       "type": "International Therapists",
       "description": "We have international therapists from Uzbekistan, Afghanistan, and Thailand. Choose your therapist based on preference. All are well-trained and certified to provide 100% satisfaction with international massage experience.",
       "icon": "🌍",
-      "image": "/src/assets/therepist/foriegn.jpg",
+      "image": "/assets/therepist/foriegn.jpg",
       "expertise": [
         "Thai massage",
         "Uzbek techniques",

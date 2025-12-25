@@ -3,41 +3,15 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import luxurySpa from "@/assets/luxury-spa.jpg";
 // Spa Assets Images
-import spaAsset1 from "@/assets/spa-assets/spa1.jpg";
-import spaAsset2 from "@/assets/spa-assets/spa2.jpg";
-import spaAsset3 from "@/assets/spa-assets/spa3.png";
-import spaAsset4 from "@/assets/spa-assets/spa4.jpg";
-import spaAsset5 from "@/assets/spa-assets/spa5.jpg";
-import spaAsset6 from "@/assets/spa-assets/spa6.png";
-import spaAsset7 from "@/assets/spa-assets/spa7.jpg";
-import spaAsset8 from "@/assets/spa-assets/spa8.png";
-import spaAsset9 from "@/assets/spa-assets/spa9.png";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { ChevronDown, MessageCircle } from "lucide-react";
 import spaData from "@/data/spa.json";
 
 // Package images mapping
 const packageImages: Record<string, string> = {
-  silver: spaAsset1,
-  golden: spaAsset2,
-  diamond: spaAsset3,
-};
-
-// Services images mapping
-const serviceImages: Record<number, string> = {
-  0: spaAsset4,
-  1: spaAsset5,
-  2: spaAsset6,
-  3: spaAsset7,
-  4: spaAsset8,
-  5: spaAsset9,
-};
-
-// Therapist images mapping
-const therapistImages: Record<number, string> = {
-  0: spaAsset4,
-  1: spaAsset5,
-  2: spaAsset6,
+  silver: "/assets/spa-assets/spa1.jpg",
+  golden: "/assets/spa-assets/spa2.jpg",
+  diamond: "/assets/spa-assets/spa3.png",
 };
 
 const RussianSpa = () => {
@@ -79,8 +53,8 @@ const RussianSpa = () => {
                   Experience Authentic Russian Spa Therapy
                 </h1>
                 <p className="text-sm md:text-base text-muted-foreground max-w-3xl">
-                  Welcome to Delhi's premier Russian Spa experience with 12+ premium outlets across Mahipalpur, Aerocity, Dwarka, and South Delhi. 
-                  Our expert therapists combine authentic Russian massage techniques with international wellness practices to deliver transformative 
+                  Welcome to Delhi's premier Russian Spa experience with 12+ premium outlets across Mahipalpur, Aerocity, Dwarka, and South Delhi.
+                  Our expert therapists combine authentic Russian massage techniques with international wellness practices to deliver transformative
                   spa experiences.
                 </p>
               </header>
@@ -152,7 +126,7 @@ const RussianSpa = () => {
               </div>
             </section>
 
-              {/* Why Choose Us Section */}
+            {/* Why Choose Us Section */}
             <section className="space-y-4">
               <h2 className="text-xl md:text-2xl lg:text-3xl font-serif font-bold text-foreground">
                 Why Choose Our Russian Spa
@@ -199,8 +173,8 @@ const RussianSpa = () => {
                     "border-orange-200",
                   ];
                   return (
-                    <div 
-                      key={treatment.id} 
+                    <div
+                      key={treatment.id}
                       className={`rounded-2xl border ${bgGradients[idx % 6]} ${borderColors[idx % 6]} p-6 space-y-3 hover:shadow-lg hover:scale-105 transition-all duration-300`}
                     >
                       <div className="flex items-start gap-3">
@@ -480,7 +454,7 @@ const RussianSpa = () => {
                 Ready to Rejuvenate?
               </h2>
               <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto">
-                Chat with us on WhatsApp to book your spa session today and experience the ultimate relaxation. 
+                Chat with us on WhatsApp to book your spa session today and experience the ultimate relaxation.
                 New customers get special discounts on first-time bookings!
               </p>
               <div className="flex justify-center">

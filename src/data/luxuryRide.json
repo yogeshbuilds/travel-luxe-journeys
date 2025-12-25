@@ -36,7 +36,7 @@
   "premiumCars": [
     {
       "name": "Audi E-Tron",
-      "image": "/src/assets/cars/Audi.png",
+      "image": "/assets/cars/Audi.png",
       "category": "Premium Sedan",
       "color": "from-blue-100 to-cyan-100",
       "textColor": "blue",
@@ -63,7 +63,7 @@
     },
     {
       "name": "BMW M-Vector",
-      "image": "/src/assets/cars/BMW.png",
+      "image": "/assets/cars/BMW.png",
       "category": "Performance Sedan",
       "color": "from-blue-200 to-indigo-100",
       "textColor": "indigo",
@@ -90,7 +90,7 @@
     },
     {
       "name": "Mercedes S-Imperial",
-      "image": "/src/assets/cars/Mercedes.png",
+      "image": "/assets/cars/Mercedes.png",
       "category": "Ultra-Luxury Sedan",
       "color": "from-purple-100 to-pink-100",
       "textColor": "purple",
@@ -117,7 +117,7 @@
     },
     {
       "name": "Lexus LX-Elegance",
-      "image": "/src/assets/cars/Lexus.png",
+      "image": "/assets/cars/Lexus.png",
       "category": "Luxury SUV",
       "color": "from-amber-100 to-orange-100",
       "textColor": "amber",
@@ -144,7 +144,7 @@
     },
     {
       "name": "Porsche Carrera X",
-      "image": "/src/assets/cars/Porche.png",
+      "image": "/assets/cars/Porche.png",
       "category": "Sports Luxury",
       "color": "from-red-100 to-orange-100",
       "textColor": "red",
@@ -171,7 +171,7 @@
     },
     {
       "name": "Ferrari F-Veloce",
-      "image": "/src/assets/cars/Ferrari.png",
+      "image": "/assets/cars/Ferrari.png",
       "category": "Ultra-Premium Sports",
       "color": "from-yellow-100 to-red-100",
       "textColor": "red",
@@ -198,7 +198,7 @@
     },
     {
       "name": "Rolls Royce Regent",
-      "image": "/src/assets/cars/RollsRoyce.png",
+      "image": "/assets/cars/RollsRoyce.png",
       "category": "Royal Luxury",
       "color": "from-gray-100 to-slate-100",
       "textColor": "gray",
@@ -225,7 +225,7 @@
     },
     {
       "name": "Jaguar X-Pace",
-      "image": "/src/assets/cars/Jaguar.png",
+      "image": "/assets/cars/Jaguar.png",
       "category": "Luxury Performance",
       "color": "from-green-100 to-emerald-100",
       "textColor": "green",
@@ -252,7 +252,7 @@
     },
     {
       "name": "Lamborghini Aventor",
-      "image": "/src/assets/cars/Lemborghini.png",
+      "image": "/assets/cars/Lemborghini.png",
       "category": "Supercar Luxury",
       "color": "from-yellow-50 to-orange-100",
       "textColor": "orange",
@@ -279,7 +279,7 @@
     },
     {
       "name": "Acura A-Vantage",
-      "image": "/src/assets/cars/Acura.png",
+      "image": "/assets/cars/Acura.png",
       "category": "Premium Performance",
       "color": "from-cyan-100 to-blue-100",
       "textColor": "cyan",
@@ -306,7 +306,7 @@
     },
     {
       "name": "Rover Summit V",
-      "image": "/src/assets/cars/Rover.png",
+      "image": "/assets/cars/Rover.png",
       "category": "Luxury SUV",
       "color": "from-emerald-100 to-teal-100",
       "textColor": "emerald",
