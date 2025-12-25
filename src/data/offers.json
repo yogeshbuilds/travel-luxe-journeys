@@ -1,6 +1,7 @@
 [
     {
         "id": "dubai-classic-4n5d",
+        "image": "/assets/packages/dubai-classic-4n5d.jpg",
         "country": "Dubai",
         "destination_city": "Dubai",
         "title": "Dubai Packages (04 Nights / 05 Days)",
@@ -35,6 +36,7 @@
     },
     {
         "id": "dubai-distinct",
+        "image": "/assets/packages/dubai-distinct.jpg",
         "country": "Dubai",
         "destination_city": "Dubai",
         "title": "Distinct Dubai",
@@ -43,7 +45,7 @@
         "starting_price_in_inr": 81020,
         "price_note": "check_on_site",
         "package_type": "Land Only",
-        "short_overview": "Signature Dubai holiday by EaseMyTrip with curated sightseeing, transfers and hotel stays.",
+        "short_overview": "Signature Dubai holiday by Havenoras with curated sightseeing, transfers and hotel stays.",
         "key_highlights": [
             "Guided Dubai sightseeing",
             "Iconic landmarks and modern attractions",
@@ -63,6 +65,7 @@
     },
     {
         "id": "dubai-unforgettable",
+        "image": "/assets/packages/dubai-unforgettable.jpg",
         "country": "Dubai",
         "destination_city": "Dubai",
         "title": "Unforgettable Dubai",
@@ -90,6 +93,7 @@
     },
     {
         "id": "dubai-adventure-lovers",
+        "image": "/assets/packages/dubai-adventure-lovers.jpg",
         "country": "Dubai",
         "destination_city": "Dubai",
         "title": "Dubai for Adventure Lovers",
@@ -117,6 +121,7 @@
     },
     {
         "id": "dubai-ultimate-experience",
+        "image": "/assets/packages/dubai-5.jpg",
         "country": "Dubai",
         "destination_city": "Dubai",
         "title": "Ultimate Dubai Experience",
@@ -144,6 +149,7 @@
     },
     {
         "id": "singapore-holiday-4n5d",
+        "image": "/assets/packages/singapore-1.jpg",
         "country": "Singapore",
         "destination_city": "Singapore",
         "title": "Singapore Package (approx. 4N/5D deal page)",
@@ -175,6 +181,7 @@
     },
     {
         "id": "singapore-best-holiday",
+        "image": "/assets/packages/singapore-2.jpg",
         "country": "Singapore",
         "destination_city": "Singapore",
         "title": "Best Singapore Holiday",
@@ -183,7 +190,7 @@
         "starting_price_in_inr": 92403,
         "price_note": "check_on_site",
         "package_type": "Land Only",
-        "short_overview": "EaseMyTrip\u2019s curated \u2018Best Singapore Holiday\u2019 covering popular attractions with transfers and stays.",
+        "short_overview": "Havenoras\u2019s curated \u2018Best Singapore Holiday\u2019 covering popular attractions with transfers and stays.",
         "key_highlights": [
             "Signature Singapore attractions bundle",
             "Airport transfers and city tour",
@@ -202,6 +209,7 @@
     },
     {
         "id": "singapore-vacay",
+        "image": "/assets/packages/singapore-3.jpg",
         "country": "Singapore",
         "destination_city": "Singapore",
         "title": "Singapore Vacay",
@@ -229,6 +237,7 @@
     },
     {
         "id": "singapore-exciting-vacation",
+        "image": "/assets/packages/singapore-4.jpg",
         "country": "Singapore",
         "destination_city": "Singapore",
         "title": "Exciting Singapore Vacation",
@@ -255,6 +264,7 @@
     },
     {
         "id": "singapore-malaysia-thrilling",
+        "image": "/assets/packages/singapore-5.jpg",
         "country": "Singapore",
         "destination_city": "Singapore & Kuala Lumpur (multi-country)",
         "title": "Thrilling Singapore and Malaysia",
@@ -282,6 +292,7 @@
     },
     {
         "id": "usa-true-essence",
+        "image": "/assets/packages/usa-1.jpg",
         "country": "USA",
         "destination_city": "Multi-city USA",
         "title": "True Essence of USA",
@@ -309,6 +320,7 @@
     },
     {
         "id": "usa-american-highlights",
+        "image": "/assets/packages/usa-2.jpg",
         "country": "USA",
         "destination_city": "East Coast USA",
         "title": "American Highlights",
@@ -335,6 +347,7 @@
     },
     {
         "id": "usa-grandeur",
+        "image": "/assets/packages/usa-3.jpg",
         "country": "USA",
         "destination_city": "Multi-city USA",
         "title": "Grandeur USA Tour",
@@ -361,6 +374,7 @@
     },
     {
         "id": "usa-grand-usa-gd",
+        "image": "/assets/packages/usa-4.jpg",
         "country": "USA",
         "destination_city": "Multi-city USA",
         "title": "Grand USA GD",
@@ -388,6 +402,7 @@
     },
     {
         "id": "usa-american-dream-expedition",
+        "image": "/assets/packages/usa-5.jpg",
         "country": "USA",
         "destination_city": "Multi-city USA",
         "title": "American Dream Expedition",
@@ -412,6 +427,7 @@
     },
     {
         "id": "usa-american-adventure",
+        "image": "/assets/packages/usa-6.jpg",
         "country": "USA",
         "destination_city": "Multi-city USA",
         "title": "American Adventure",
@@ -436,6 +452,7 @@
     },
     {
         "id": "thailand-explorer-city-coast",
+        "image": "/assets/packages/thailand-1.jpg",
         "country": "Thailand",
         "destination_city": "Bangkok & Coastal Thailand (e.g., Pattaya/Phuket etc.)",
         "title": "Thailand Explorer: City & Coast Edition",
@@ -463,6 +480,7 @@
     },
     {
         "id": "thailand-supersaver-with-flight",
+        "image": "/assets/packages/thailand-2.jpg",
         "country": "Thailand",
         "destination_city": "Typical Thailand circuit (e.g., Bangkok + Pattaya/Phuket)",
         "title": "Thailand Supersaver with Flight",
@@ -490,6 +508,7 @@
     },
     {
         "id": "thailand-fun-fiesta",
+        "image": "/assets/packages/thailand-3.jpg",
         "country": "Thailand",
         "destination_city": "Multi-city Thailand",
         "title": "Thailand Fun Fiesta",
@@ -516,6 +535,7 @@
     },
     {
         "id": "thailand-blissful-getaway",
+        "image": "/assets/packages/thailand-4.jpg",
         "country": "Thailand",
         "destination_city": "Multi-city Thailand",
         "title": "Blissful Thailand Getaway",
@@ -541,6 +561,7 @@
     },
     {
         "id": "swiss-tour-packages-generic",
+        "image": "/assets/packages/switzerland-1.jpg",
         "country": "Switzerland",
         "destination_city": "Multi-city Switzerland",
         "title": "Switzerland Tour Packages (Landing Page)",
@@ -567,6 +588,7 @@
     },
     {
         "id": "swiss-paris-summer-2026",
+        "image": "/assets/packages/switzerland-2.jpg",
         "country": "Switzerland",
         "destination_city": "Paris & Swiss Cities",
         "title": "Paris & Swiss Getaway \u2013 Summer 2026",
@@ -594,6 +616,7 @@
     },
     {
         "id": "swiss-exclusive-europe",
+        "image": "/assets/packages/switzerland-3.jpg",
         "country": "Switzerland",
         "destination_city": "Multi-country Europe incl. Switzerland",
         "title": "Exclusive Europe (with Swiss sector)",
@@ -621,6 +644,7 @@
     },
     {
         "id": "swiss-zurich-packages",
+        "image": "/assets/packages/switzerland-4.jpg",
         "country": "Switzerland",
         "destination_city": "Zurich",
         "title": "Zurich Tour Packages",
@@ -647,6 +671,7 @@
     },
     {
         "id": "swiss-interlaken-packages",
+        "image": "/assets/packages/switzerland-5.jpg",
         "country": "Switzerland",
         "destination_city": "Interlaken",
         "title": "Interlaken Tour Packages",

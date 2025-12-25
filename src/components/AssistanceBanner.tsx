@@ -20,7 +20,7 @@ const AssistanceBanner = () => {
             </Button>
             <Button variant="hero" size="lg" className="gap-2 text-sm md:text-base w-full md:w-auto">
               <Mail className="h-4 w-4 md:h-5 md:w-5" />
-              support@travelluxe.com
+              havenoras@gmail.com
             </Button>
           </div>
         </div>

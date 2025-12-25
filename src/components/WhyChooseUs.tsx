@@ -24,10 +24,10 @@ const WhyChooseUs = () => {
     <section className="py-6 bg-background">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-serif font-bold text-center mb-8 md:mb-12 text-foreground">
-          Why Choose TravelLuxe?
+          Why Choose Havenoras?
         </h2>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {features.map((feature) => {
             const Icon = feature.icon;
             return (

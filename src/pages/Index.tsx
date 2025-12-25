@@ -7,6 +7,7 @@ import SpecialDeals from "@/components/SpecialDeals";
 import AssistanceBanner from "@/components/AssistanceBanner";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Footer from "@/components/Footer";
+import Testimonials from "@/components/Testimonials";
 import { ChevronDown } from "lucide-react";
 
 const Index = () => {
@@ -20,7 +21,9 @@ const Index = () => {
       <SpecialDeals />
       <AssistanceBanner />
       <WhyChooseUs />
-      
+
+      <Testimonials />
+
       {/* FAQ Section */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">

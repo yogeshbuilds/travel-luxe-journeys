@@ -9,7 +9,7 @@ const offers = [
   },
   {
     icon: Calendar,
-    text: "Black Friday Sale - Up to 40% OFF",
+    text: "New Year Sale - Up to 40% OFF",
   },
   {
     icon: Sparkles,

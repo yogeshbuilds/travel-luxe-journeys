@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Plane className="h-5 w-5 md:h-6 md:w-6" />
-              <span className="text-xl md:text-2xl font-serif font-bold">TravelLuxe</span>
+              <span className="text-xl md:text-2xl font-serif font-bold">Havenoras</span>
             </div>
             <p className="text-sm md:text-base text-primary-foreground/80 mb-4">
               Your gateway to luxury travel experiences around the world.
@@ -95,7 +95,7 @@ const Footer = () => {
             <h4 className="font-bold text-base md:text-lg mb-4">Contact Us</h4>
             <ul className="space-y-2 text-sm md:text-base text-primary-foreground/80">
               <li>+1 (800) 123-4567</li>
-              <li>support@travelluxe.com</li>
+              <li>havenoras@gmail.com</li>
               <li>123 Luxury Avenue</li>
               <li>New York, NY 10001</li>
             </ul>
@@ -103,7 +103,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm md:text-base text-primary-foreground/80">
-          <p>&copy; 2025 TravelLuxe. All rights reserved.</p>
+          <p>&copy; 2025 Havenoras. All rights reserved.</p>
         </div>
       </div>
     </footer>
