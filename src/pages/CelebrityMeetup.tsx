@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import celebrityMeetup from "@/assets/celebrity-meetup.jpg";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import { ChevronDown } from "lucide-react";
 import meetupData from "@/data/meetup.json";
 
 const CelebrityMeetup = () => {
@@ -97,6 +98,52 @@ const CelebrityMeetup = () => {
                 <button className="inline-flex justify-center items-center gap-2 rounded-full border border-input bg-background px-4 py-2 text-sm font-medium hover:bg-accent transition">
                   Talk to Brand Specialist
                 </button>
+              </div>
+            </section>
+
+            {/* FAQ Section */}
+            <section className="space-y-4">
+              <div className="text-center space-y-2 mb-6">
+                <h2 className="text-2xl md:text-3xl font-serif font-bold text-foreground">
+                  Frequently Asked Questions
+                </h2>
+                <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto">
+                  Learn more about our celebrity meetup and brand collaboration services
+                </p>
+              </div>
+              <div className="space-y-3 max-w-3xl mx-auto">
+                {[
+                  {
+                    question: "How much does a celebrity meetup cost?",
+                    answer: "Pricing varies based on the celebrity's popularity, availability, and the type of experience (shoutout, appearance, meet & greet, endorsement). A personalized shoutout starts from ₹5,000-₹50,000, while appearances and endorsements are customized quotes. Contact our team for detailed pricing."
+                  },
+                  {
+                    question: "How far in advance should I book?",
+                    answer: "We recommend booking 2-4 weeks in advance for standard requests. For specific celebrities or complex arrangements, please book 4-8 weeks ahead. Rush bookings (7-10 days) are available at a premium surcharge based on celebrity availability."
+                  },
+                  {
+                    question: "What types of celebrity experiences do you offer?",
+                    answer: "We offer personalized video shoutouts, live appearances at events, meet & greet sessions, photo shoots, brand endorsements, and Instagram takeovers. Custom packages can be created based on your specific occasion and budget."
+                  },
+                  {
+                    question: "Can I request a specific celebrity?",
+                    answer: "Yes! You can request any celebrity. We'll work with our network to coordinate with their management and check availability. If the requested celebrity isn't available, we'll suggest similar alternatives within your budget and preferences."
+                  },
+                  {
+                    question: "Is there a refund policy?",
+                    answer: "We offer a 100% refund if the celebrity cancels or is unavailable. For client-initiated cancellations: full refund if cancelled 14+ days before, 50% refund if cancelled 7-14 days before, and no refund within 7 days of the scheduled date."
+                  }
+                ].map((faq, index) => (
+                  <details key={index} className="group rounded-lg border bg-card p-4 hover:shadow-md transition">
+                    <summary className="flex cursor-pointer items-center justify-between font-semibold text-foreground">
+                      <span>{faq.question}</span>
+                      <span className="text-muted-foreground transition group-open:rotate-180">
+                        <ChevronDown className="h-5 w-5" />
+                      </span>
+                    </summary>
+                    <p className="mt-3 text-sm text-muted-foreground">{faq.answer}</p>
+                  </details>
+                ))}
               </div>
             </section>
           </div>

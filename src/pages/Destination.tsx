@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { ArrowLeft, Check, Clock, MapPin } from "lucide-react";
+import { ArrowLeft, Check, Clock, MapPin, ChevronDown } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import offersData from "@/data/offers.json";
@@ -208,6 +208,54 @@ const Destination = () => {
                   </div>
                 </CardContent>
               </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center space-y-2 mb-8">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Everything you need to know about traveling to {countryName}
+            </p>
+          </div>
+          <div className="space-y-3 max-w-3xl mx-auto">
+            {[
+              {
+                question: `What is the best time to visit ${countryName}?`,
+                answer: `The best time depends on your preferences. Generally, the pleasant weather months are ideal for sightseeing. We recommend checking weather patterns and local events for the best experience. Our travel experts can suggest the perfect season for your preferences.`
+              },
+              {
+                question: "What documents do I need for travel?",
+                answer: "You'll typically need a valid passport and visa (if applicable for your destination). We recommend checking your country's embassy website for specific requirements. Our team can assist with visa guidance and travel documentation."
+              },
+              {
+                question: "Are vaccinations required?",
+                answer: "Vaccination requirements vary by destination and your home country. We strongly recommend consulting your doctor and checking health advisory websites for current requirements before booking your trip."
+              },
+              {
+                question: "What is included in the package?",
+                answer: "Our packages typically include accommodation, guided tours, meals, transportation, and premium experiences. Specific inclusions are listed in each package details. You can also customize packages based on your preferences and budget."
+              },
+              {
+                question: "Can I customize my travel package?",
+                answer: "Absolutely! All our packages are customizable. You can adjust duration, accommodation type, activities, and experiences. Contact our travel experts to create your perfect luxury travel itinerary."
+              }
+            ].map((faq, index) => (
+              <details key={index} className="group rounded-lg border bg-card p-4 hover:shadow-md transition">
+                <summary className="flex cursor-pointer items-center justify-between font-semibold text-foreground">
+                  <span>{faq.question}</span>
+                  <span className="text-muted-foreground transition group-open:rotate-180">
+                    <ChevronDown className="h-5 w-5" />
+                  </span>
+                </summary>
+                <p className="mt-3 text-sm text-muted-foreground">{faq.answer}</p>
+              </details>
             ))}
           </div>
         </div>

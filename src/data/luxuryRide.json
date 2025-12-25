@@ -1,18 +1,18 @@
 {
-  "startingPrice": 7000,
-  "startingLabel": "Per experience \u2022 Delhi NCR \u2022 Chauffeur driven",
+  "startingPrice": 8000,
+  "startingLabel": "Per experience • Delhi NCR • Chauffeur driven",
   "carCategories": [
     {
       "label": "Audi A6 / BMW 5 Series / Mercedes E-Class",
-      "note": "from approx. \u20b97,000 base"
+      "note": "from approx. ₹7,000 base"
     },
     {
       "label": "BMW X5 / Mercedes ML",
-      "note": "from approx. \u20b97,000 + \u20b94,500"
+      "note": "from approx. ₹7,000 + ₹4,500"
     },
     {
       "label": "Mercedes S-Class / Jaguar",
-      "note": "from approx. \u20b97,000 + \u20b911,000"
+      "note": "from approx. ₹7,000 + ₹11,000"
     }
   ],
   "extras": {
@@ -20,47 +20,380 @@
     "extraHourFrom": 1100
   },
   "premiumCarsInIndia": [
-    "Audi A6",
-    "Audi Q7",
-    "BMW 5 Series",
-    "BMW 7 Series",
-    "Mercedes E-Class",
-    "Mercedes S-Class",
-    "Range Rover Vogue",
-    "Porsche Cayenne"
+    "Audi E-tron",
+    "BMW M-Vector",
+    "Mercedes S-Imperial",
+    "Lexus LX-Elegance",
+    "Porsche Carrera X",
+    "Ferrari F-Veloce",
+    "Rolls Royce Regent",
+    "Jaguar X-Pace",
+    "Lamborghini Aventor",
+    "Acura A-Vantage",
+    "Rover Summit V",
+    "Range Rover Extremus"
   ],
   "premiumCars": [
     {
-      "name": "Audi A6",
-      "image": "/src/assets/cars/audi-a6.jpg"
+      "name": "Audi E-Tron",
+      "image": "/src/assets/cars/Audi.png",
+      "category": "Premium Sedan",
+      "color": "from-blue-100 to-cyan-100",
+      "textColor": "blue",
+      "price": "₹8,500",
+      "description": "Sleek German precision meets modern elegance. The Audi Auron delivers smooth, sophisticated driving with cutting-edge technology.",
+      "features": [
+        "Advanced Audi Virtual Cockpit",
+        "Panoramic sunroof",
+        "Premium leather seats",
+        "Ambient lighting",
+        "Adaptive cruise control",
+        "Quattro all-wheel drive",
+        "Bang & Olufsen sound system"
+      ],
+      "specifications": {
+        "engine": "2.0L TFSI Turbo",
+        "transmission": "S-Tronic",
+        "seats": "5 Passengers + Driver",
+        "acceleration": "0-100 km/h in 7.0s",
+        "topSpeed": "250 km/h",
+        "fuelEfficiency": "14 km/l"
+      },
+      "bestFor": "City drives, romantic dates, business travel"
     },
     {
-      "name": "Audi Q7",
-      "image": "/src/assets/cars/audi-q7.jpg"
+      "name": "BMW M-Vector",
+      "image": "/src/assets/cars/BMW.png",
+      "category": "Performance Sedan",
+      "color": "from-blue-200 to-indigo-100",
+      "textColor": "indigo",
+      "price": "₹8,500",
+      "description": "Dynamic performance meets luxury comfort. The BMW M-Vector combines sporty handling with premium executive comfort.",
+      "features": [
+        "M Sport suspension",
+        "Intelligent fuel management",
+        "Gesture control interface",
+        "Panoramic sunroof with ambient light",
+        "Heated & massaging seats",
+        "Head-up display",
+        "Premium Harman Kardon audio"
+      ],
+      "specifications": {
+        "engine": "3.0L Twin-Turbo",
+        "transmission": "8-Speed Automatic",
+        "seats": "5 Passengers + Driver",
+        "acceleration": "0-100 km/h in 5.5s",
+        "topSpeed": "280 km/h",
+        "fuelEfficiency": "12 km/l"
+      },
+      "bestFor": "Executive travel, special events, premium experiences"
     },
     {
-      "name": "BMW 5 Series",
-      "image": "/src/assets/cars/bnw5.jpg"
+      "name": "Mercedes S-Imperial",
+      "image": "/src/assets/cars/Mercedes.png",
+      "category": "Ultra-Luxury Sedan",
+      "color": "from-purple-100 to-pink-100",
+      "textColor": "purple",
+      "price": "₹18,000",
+      "description": "The epitome of luxury and technological excellence. Mercedes S-Imperial sets new standards in automotive sophistication.",
+      "features": [
+        "MAGIC BODY CONTROL suspension",
+        "64-color ambient lighting",
+        "Napa leather throughout",
+        "Panoramic sunroof 2.6 sq meters",
+        "4-zone climate control",
+        "Rear seat entertainment",
+        "AR navigation system"
+      ],
+      "specifications": {
+        "engine": "3.0L Twin-Turbo",
+        "transmission": "9-Speed Automatic",
+        "seats": "5 Passengers + Driver",
+        "acceleration": "0-100 km/h in 4.5s",
+        "topSpeed": "250 km/h",
+        "fuelEfficiency": "10 km/l"
+      },
+      "bestFor": "VIP events, weddings, luxury proposals"
     },
     {
-      "name": "BMW 7 Series",
-      "image": "/src/assets/cars/bmw7.jpg"
+      "name": "Lexus LX-Elegance",
+      "image": "/src/assets/cars/Lexus.png",
+      "category": "Luxury SUV",
+      "color": "from-amber-100 to-orange-100",
+      "textColor": "amber",
+      "price": "₹16,000",
+      "description": "Japanese luxury meets refined elegance. The Lexus LX-Elegance offers spacious comfort with premium technology.",
+      "features": [
+        "Panoramic sunroof",
+        "Premium Lexus climate control",
+        "Mark Levinson audio system",
+        "Semi-aniline leather",
+        "Power adjustable seats",
+        "Triple-zone climate",
+        "Intuitive infotainment system"
+      ],
+      "specifications": {
+        "engine": "3.5L Hybrid V6",
+        "transmission": "8-Speed Automatic",
+        "seats": "7 Passengers + Driver",
+        "acceleration": "0-100 km/h in 7.5s",
+        "topSpeed": "230 km/h",
+        "fuelEfficiency": "13 km/l"
+      },
+      "bestFor": "Family getaways, group travel, luxury comfort"
     },
     {
-      "name": "Mercedes E-Class",
-      "image": "/src/assets/cars/mercedes-e-class.jpg"
+      "name": "Porsche Carrera X",
+      "image": "/src/assets/cars/Porche.png",
+      "category": "Sports Luxury",
+      "color": "from-red-100 to-orange-100",
+      "textColor": "red",
+      "price": "₹19,500",
+      "description": "Legendary Porsche performance combined with luxury. Carrera X delivers exhilarating speed with premium comfort.",
+      "features": [
+        "Turbo engine technology",
+        "Sport-tuned suspension",
+        "Adaptive spoiler",
+        "Carbon fiber accents",
+        "Premium leather seats",
+        "Enhanced steering feedback",
+        "Bose sound system"
+      ],
+      "specifications": {
+        "engine": "3.0L Twin-Turbo",
+        "transmission": "8-Speed PDK",
+        "seats": "2 Passengers + Driver (4-seater variant available)",
+        "acceleration": "0-100 km/h in 3.8s",
+        "topSpeed": "300+ km/h",
+        "fuelEfficiency": "10 km/l"
+      },
+      "bestFor": "Thrill-seekers, premium adventures, unforgettable experiences"
     },
     {
-      "name": "Mercedes S-Class",
-      "image": "/src/assets/cars/mercedes-s-class.jpg"
+      "name": "Ferrari F-Veloce",
+      "image": "/src/assets/cars/Ferrari.png",
+      "category": "Ultra-Premium Sports",
+      "color": "from-yellow-100 to-red-100",
+      "textColor": "red",
+      "price": "₹19,000",
+      "description": "Italian passion and engineering brilliance. Ferrari F-Veloce is the ultimate expression of luxury and performance.",
+      "features": [
+        "Iconic Ferrari design",
+        "High-revving engine",
+        "Carbon fiber construction",
+        "Bespoke interior",
+        "Advanced aerodynamics",
+        "Premium leather & Alcantara",
+        "Exclusive sound experience"
+      ],
+      "specifications": {
+        "engine": "3.9L Twin-Turbo V8",
+        "transmission": "7-Speed Dual Clutch",
+        "seats": "2 Passengers + Driver",
+        "acceleration": "0-100 km/h in 3.4s",
+        "topSpeed": "330+ km/h",
+        "fuelEfficiency": "8 km/l"
+      },
+      "bestFor": "Once-in-a-lifetime experiences, ultimate luxury drives"
     },
     {
-      "name": "Range Rover Vogue",
-      "image": "/src/assets/cars/Range-Rover.jpeg"
+      "name": "Rolls Royce Regent",
+      "image": "/src/assets/cars/RollsRoyce.png",
+      "category": "Royal Luxury",
+      "color": "from-gray-100 to-slate-100",
+      "textColor": "gray",
+      "price": "₹20,000",
+      "description": "The pinnacle of automotive royalty. Rolls Royce Regent represents absolute luxury, prestige, and timeless elegance.",
+      "features": [
+        "Bespoke hand-stitched interior",
+        "Starlight ceiling",
+        "Ambient fragrance system",
+        "Panoramic sunroof",
+        "Champagne cooler",
+        "Premium wool carpeting",
+        "Custom sound isolation"
+      ],
+      "specifications": {
+        "engine": "6.75L Twin-Turbo V12",
+        "transmission": "8-Speed Automatic",
+        "seats": "5 Passengers + Driver",
+        "acceleration": "0-100 km/h in 5.2s",
+        "topSpeed": "250 km/h (Electronically limited)",
+        "fuelEfficiency": "6 km/l"
+      },
+      "bestFor": "Royal events, VIP experiences, ultimate prestige moments"
     },
     {
-      "name": "Porsche Cayenne",
-      "image": "/src/assets/cars/proche.jpg"
+      "name": "Jaguar X-Pace",
+      "image": "/src/assets/cars/Jaguar.png",
+      "category": "Luxury Performance",
+      "color": "from-green-100 to-emerald-100",
+      "textColor": "green",
+      "price": "₹15,000",
+      "description": "British craftsmanship meets modern performance. Jaguar X-Pace delivers sophisticated power and refined elegance.",
+      "features": [
+        "Aluminum chassis",
+        "Adaptive dynamics",
+        "Premium Windsor leather",
+        "Panoramic sunroof",
+        "Meridian sound system",
+        "Power adjustable suspension",
+        "Dynamic cornering lights"
+      ],
+      "specifications": {
+        "engine": "3.0L Supercharged V6",
+        "transmission": "8-Speed Automatic",
+        "seats": "5 Passengers + Driver",
+        "acceleration": "0-100 km/h in 6.0s",
+        "topSpeed": "270 km/h",
+        "fuelEfficiency": "11 km/l"
+      },
+      "bestFor": "Executive events, romantic getaways, sophisticated travel"
+    },
+    {
+      "name": "Lamborghini Aventor",
+      "image": "/src/assets/cars/Lemborghini.png",
+      "category": "Supercar Luxury",
+      "color": "from-yellow-50 to-orange-100",
+      "textColor": "orange",
+      "price": "₹18,500",
+      "description": "Exotic Italian style with breathtaking performance. Lamborghini Aventor commands attention with pure power.",
+      "features": [
+        "Iconic Lamborghini design",
+        "Scissor doors",
+        "Carbon fiber body",
+        "Alcantara racing interior",
+        "Advanced aerodynamics",
+        "LED matrix headlights",
+        "Distinctive engine sound"
+      ],
+      "specifications": {
+        "engine": "6.5L Naturally Aspirated V12",
+        "transmission": "7-Speed Automatic",
+        "seats": "2 Passengers + Driver",
+        "acceleration": "0-100 km/h in 2.9s",
+        "topSpeed": "350+ km/h",
+        "fuelEfficiency": "7 km/l"
+      },
+      "bestFor": "Unforgettable adventures, exclusive celebrations, dream experiences"
+    },
+    {
+      "name": "Acura A-Vantage",
+      "image": "/src/assets/cars/Acura.png",
+      "category": "Premium Performance",
+      "color": "from-cyan-100 to-blue-100",
+      "textColor": "cyan",
+      "price": "₹9,000",
+      "description": "Japanese precision meets luxury performance. Acura A-Vantage combines reliability with premium comfort.",
+      "features": [
+        "Precision cockpit design",
+        "AcuraWatch safety suite",
+        "Premium audio system",
+        "Heated leather seats",
+        "Dual sunroof",
+        "Advanced noise cancellation",
+        "Panoramic displays"
+      ],
+      "specifications": {
+        "engine": "3.5L Twin-Turbo V6",
+        "transmission": "10-Speed Automatic",
+        "seats": "5 Passengers + Driver",
+        "acceleration": "0-100 km/h in 5.3s",
+        "topSpeed": "260 km/h",
+        "fuelEfficiency": "12 km/l"
+      },
+      "bestFor": "Balanced luxury, professional travel, refined comfort"
+    },
+    {
+      "name": "Rover Summit V",
+      "image": "/src/assets/cars/Rover.png",
+      "category": "Luxury SUV",
+      "color": "from-emerald-100 to-teal-100",
+      "textColor": "emerald",
+      "price": "₹17,000",
+      "description": "British heritage meets modern luxury SUV. Rover Summit V combines capability with premium refinement.",
+      "features": [
+        "Intelligent all-wheel drive",
+        "Panoramic glass roof",
+        "Premium leather upholstery",
+        "Configurable terrain modes",
+        "Signature LED headlights",
+        "Premium sound system",
+        "Adaptive air suspension"
+      ],
+      "specifications": {
+        "engine": "3.0L Twin-Turbo Diesel",
+        "transmission": "8-Speed Automatic",
+        "seats": "7 Passengers + Driver",
+        "acceleration": "0-100 km/h in 6.8s",
+        "topSpeed": "230 km/h",
+        "fuelEfficiency": "11 km/l"
+      },
+      "bestFor": "Family adventures, group travel, versatile luxury"
+    }
+  ],
+  "serviceFeatures": [
+    {
+      "title": "Professional Chauffeurs",
+      "description": "Trained, courteous, and experienced chauffeurs ensure a safe and comfortable journey.",
+      "icon": "👤"
+    },
+    {
+      "title": "Well-Maintained Fleet",
+      "description": "All vehicles are regularly serviced and meticulously maintained for your safety and comfort.",
+      "icon": "✨"
+    },
+    {
+      "title": "Flexible Packages",
+      "description": "Choose from hourly bookings, full-day packages, or custom itineraries tailored to your needs.",
+      "icon": "⏱️"
+    },
+    {
+      "title": "24/7 Availability",
+      "description": "Book anytime, anywhere. We're available round the clock for your convenience.",
+      "icon": "🕐"
+    },
+    {
+      "title": "Transparent Pricing",
+      "description": "No hidden charges. Clear, upfront pricing with detailed breakdowns included.",
+      "icon": "💰"
+    },
+    {
+      "title": "GPS Tracking",
+      "description": "Real-time location tracking for safety and transparency throughout your journey.",
+      "icon": "📍"
+    }
+  ],
+  "occasions": [
+    {
+      "name": "Romantic Dates",
+      "description": "Make your date night unforgettable with luxury car experience and uncompromising comfort.",
+      "cars": ["Audi A6", "BMW 5 Series", "Mercedes E-Class"]
+    },
+    {
+      "name": "Proposals & Anniversaries",
+      "description": "Create magical moments with premium vehicles perfect for intimate special occasions.",
+      "cars": ["Mercedes S-Class", "BMW 7 Series", "Range Rover Vogue"]
+    },
+    {
+      "name": "Weddings & Celebrations",
+      "description": "Arrive in style at your wedding or celebration with our impressive luxury fleet.",
+      "cars": ["Range Rover Vogue", "Porsche Cayenne", "Mercedes S-Class"]
+    },
+    {
+      "name": "Business Travel",
+      "description": "Make an impression with executive-class vehicles for business meetings and events.",
+      "cars": ["BMW 5 Series", "Audi A6", "Mercedes E-Class"]
+    },
+    {
+      "name": "Airport Transfers",
+      "description": "Start or end your journey with professional, comfortable airport transportation.",
+      "cars": ["Audi Q7", "BMW 5 Series", "Mercedes E-Class"]
+    },
+    {
+      "name": "Group Getaways",
+      "description": "Travel together in luxury with spacious SUVs perfect for friends and family.",
+      "cars": ["Audi Q7", "Range Rover Vogue", "Porsche Cayenne"]
     }
   ]
 }

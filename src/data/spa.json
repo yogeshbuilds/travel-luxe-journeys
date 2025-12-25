@@ -3,25 +3,395 @@
     {
       "id": "silver",
       "name": "Silver Full Body Massage Spa",
-      "tagline": "Starter Package \u2022 2 Hours",
-      "priceRange": "From \u20b94,000\u2013\u20b96,000*",
-      "image": "/src/assets/spa/spa1.png"
+      "tagline": "Starter Package • 2 Hours",
+      "priceRange": "From ₹4,000–₹6,000*",
+      "image": "/src/assets/spa-assets/spa1.jpg",
+      "description": "Perfect for a quick reset—a focused full-body or area-specific massage that works on muscle flexibility and deep relaxation.",
+      "duration": "2 Hours",
+      "sessions": "One Session",
+      "therapists": "Indian or Overseas Therapists",
+      "amenities": [
+        "Private massage room",
+        "Professional therapist",
+        "Deep tissue or Swedish massage",
+        "Complimentary water & herbal tea"
+      ]
     },
     {
       "id": "golden",
       "name": "Golden Full Body Massage Spa",
-      "tagline": "Deep Relaxation \u2022 4 Hours",
-      "priceRange": "From \u20b97,000\u2013\u20b912,000*",
-      "image": "/src/assets/spa/spa2.png"
+      "tagline": "Deep Relaxation • 4 Hours",
+      "priceRange": "From ₹7,000–₹12,000*",
+      "image": "/src/assets/spa-assets/spa2.jpg",
+      "description": "Extended spa time with options like hot oil or hot stone massage to revitalize your skin, ease tension, and calm your mind.",
+      "duration": "4 Hours",
+      "sessions": "One Session",
+      "therapists": "Indian or Overseas Therapists",
+      "amenities": [
+        "Private massage room",
+        "Hot oil or hot stone therapy",
+        "Body massage & aromatherapy",
+        "Steam bath access",
+        "Herbal tea & snacks",
+        "Relaxation lounge"
+      ]
     },
     {
       "id": "diamond",
       "name": "Diamond Full Body Massage Spa",
-      "tagline": "Signature Retreat \u2022 6 Hours",
-      "priceRange": "From \u20b910,000\u2013\u20b918,000*",
-      "image": "/src/assets/spa/spa3.webp"
+      "tagline": "Signature Retreat • 6 Hours",
+      "priceRange": "From ₹10,000–₹18,000*",
+      "image": "/src/assets/spa-assets/spa3.png",
+      "description": "A complete spa journey with essential oils, steam, multiple massage techniques, and body wrap for a glowing, relaxed you.",
+      "duration": "6 Hours",
+      "sessions": "One Session",
+      "therapists": "Premium Overseas Therapists",
+      "amenities": [
+        "Private spa suite",
+        "Multiple massage techniques",
+        "Hot stone & aromatherapy",
+        "Body wrap treatment",
+        "Steam bath & sauna",
+        "Jacuzzi bath access",
+        "Facial or skin treatment",
+        "Premium refreshments",
+        "Relaxation lounge access"
+      ]
     }
-  ]
+  ],
+  "treatments": [
+    {
+      "id": "full-body",
+      "name": "Full Body Massage",
+      "icon": "💆",
+      "duration": "60-120 mins",
+      "description": "Traditional full body massage using oils and techniques designed to relieve tension, improve circulation, and promote overall relaxation.",
+      "benefits": [
+        "Stress relief",
+        "Improved blood circulation",
+        "Muscle tension reduction",
+        "Better sleep quality"
+      ]
+    },
+    {
+      "id": "thai",
+      "name": "Thai Massage",
+      "icon": "🧘",
+      "duration": "90-120 mins",
+      "description": "Ancient Thai massage techniques combining stretching, acupressure, and joint mobilization to improve flexibility and energy flow.",
+      "benefits": [
+        "Enhanced flexibility",
+        "Better posture",
+        "Energy balancing",
+        "Mental clarity"
+      ]
+    },
+  
+    {
+      "id": "deep-tissue",
+      "name": "Deep Tissue Massage",
+      "icon": "💪",
+      "duration": "60-90 mins",
+      "description": "Intensive massage targeting deeper muscle layers to release chronic tension, knots, and muscle stiffness.",
+      "benefits": [
+        "Chronic pain relief",
+        "Muscle recovery",
+        "Improved mobility",
+        "Tension release"
+      ]
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "title": "Certified & Trained Therapists",
+      "description": "Our therapists are professionally trained and certified in authentic massage techniques from Russia, Thailand, and India.",
+      "icon": "👥"
+    },
+    {
+      "title": "5+ Premium Outlets",
+      "description": "Conveniently located across Delhi, Gurgaon, and NCR for easy access to quality spa experiences.",
+      "icon": "📍"
+    },
+    {
+      "title": "24/7 Customer Support",
+      "description": "Round-the-clock support to help with bookings, scheduling, and any special requests you may have.",
+      "icon": "⏰"
+    },
+    {
+      "title": "Hygiene & Safety First",
+      "description": "We maintain the highest standards of cleanliness and follow strict hygiene protocols in all our facilities.",
+      "icon": "✨"
+    },
+    {
+      "title": "Affordable Luxury",
+      "description": "Premium spa experiences at competitive prices with special discounts for first-time visitors.",
+      "icon": "💎"
+    },
+    {
+      "title": "Complete Privacy",
+      "description": "All spa sessions are conducted in completely private rooms ensuring your comfort and confidentiality.",
+      "icon": "🔒"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Priya Sharma",
+      "title": "IT Professional",
+      "rating": 5,
+      "feedback": "The spa experience at Mahipalpur was absolutely rejuvenating. The therapists are highly skilled and the ambiance is incredibly calming. Highly recommended!",
+      "date": "December 2025"
+    },
+    {
+      "name": "Rajesh Kumar",
+      "title": "Business Executive",
+      "rating": 5,
+      "feedback": "Perfect for stress relief after long work weeks. The hot stone therapy was exactly what I needed. Will definitely book again!",
+      "date": "November 2025"
+    },
+    {
+      "name": "Ankita Verma",
+      "title": "Designer",
+      "rating": 5,
+      "feedback": "Booked the Diamond package for my anniversary. Every moment was special—from the welcome tea to the body wrap. Worth every rupee!",
+      "date": "October 2025"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I book a spa appointment?",
+      "answer": "You can book through our website, call us at +91-XXXX-XXXX, or WhatsApp us. We offer flexible scheduling and can accommodate last-minute bookings based on availability."
+    },
+    {
+      "question": "Are therapists male or female?",
+      "answer": "We have both male and female therapists. You can specify your preference during booking, and we'll arrange accordingly."
+    },
+    {
+      "question": "What is your cancellation policy?",
+      "answer": "Cancellations made 24 hours before the appointment are refunded. Cancellations within 24 hours may incur a 50% cancellation fee."
+    },
+    {
+      "question": "Do you offer home spa services?",
+      "answer": "Yes, we offer home spa and hotel spa services across Delhi NCR. Additional travel charges may apply based on your location."
+    },
+    {
+      "question": "Is there a discount for first-time customers?",
+      "answer": "Yes! New customers get special discounts on their first booking. First visit offer is just ₹1,499. Contact our team for details."
+    },
+    {
+      "question": "Are your therapists certified?",
+      "answer": "All our therapists are certified, trained, and experienced in their respective massage techniques. We maintain strict quality standards."
+    }
+  ],
+  "services": [
+    {
+      "id": "foreigner-therapist",
+      "name": "Foreigner Therapist",
+      "description": "Experience authentic international massage techniques from Russia, Thailand, Afghanistan, and Uzbekistan. Our certified foreign therapists bring traditional methods combined with contemporary comfort.",
+      "image": "/src/assets/spa-assets/spa4.jpg",
+      "highlight": "International expertise for authentic experience"
+    },
+    {
+      "id": "five-star-hotel",
+      "name": "5-Star Hotel Spa",
+      "description": "Indulge in luxury spa experiences at premium 5-star hotel outlets across Delhi NCR. Enjoy world-class facilities with Jacuzzi, steam, and sauna at just ₹15,999.",
+      "image": "/src/assets/spa-assets/spa5.jpg",
+      "highlight": "Luxurious ambiance with premium amenities"
+    },
+    {
+      "id": "home-spa",
+      "name": "Home Spa Service",
+      "description": "Relax in the comfort of your own home. Our professional therapists come to your location with complete spa equipment for personalized sessions.",
+      "image": "/src/assets/spa-assets/spa6.png",
+      "highlight": "Convenience at your doorstep"
+    },
+    {
+      "id": "thai-massage",
+      "name": "Thai Massage",
+      "description": "Ancient Thai massage techniques combining stretching, acupressure, and joint mobilization. Perfect for improving flexibility and energy balance.",
+      "image": "/src/assets/spa-assets/spa7.jpg",
+      "highlight": "Traditional healing from Thailand"
+    },
+    {
+      "id": "b2b-therapy",
+      "name": "Body-to-Body Therapy",
+      "description": "Premium body-to-body massage service ensuring 100% safety and privacy. Fully private sessions with professional therapists.",
+      "image": "/src/assets/spa-assets/spa8.png",
+      "highlight": "Private & professional service"
+    },
+    {
+      "id": "night-spa",
+      "name": "Night Spa Service",
+      "description": "Perfect relaxation after a tiring day. Our full night spa sessions are available for booking anytime, providing complete stress relief and rejuvenation.",
+      "image": "/src/assets/spa-assets/spa9.png",
+      "highlight": "Evening relaxation available 24/7"
+    }
+  ],
+  "therapists": [
+    {
+      "type": "Russian Therapists",
+      "description": "Our certified Russian therapists are trained in authentic Russian massage methods. A Russian massage improves blood circulation, reduces stress, eases muscle pain, and enhances skin health. Experience the same expert care whether you visit Mahipalpur, Lajpat Nagar, or any of our outlets.",
+      "icon": "🇷🇺",
+      "image": "/src/assets/therepist/russian.jpg",
+      "expertise": [
+        "Authentic Russian massage techniques",
+        "Deep tissue & muscle therapy",
+        "Traditional healing methods",
+        "Stress & tension relief"
+      ]
+    },
+    {
+      "type": "Indian Therapists",
+      "description": "Experienced Indian therapists trained in body massage and wellness treatments. Available at outlets in Noida, Aerocity, Karol Bagh, and Mahipalpur. Our Indian therapists prioritize customer comfort with complete focus on hygiene and professional care.",
+      "icon": "🇮🇳",
+      "image": "/src/assets/therepist/indian.jpg",
+      "expertise": [
+        "Traditional body massage",
+        "Wellness treatments",
+        "Ayurvedic techniques",
+        "Relaxation therapy"
+      ]
+    },
+    {
+      "type": "International Therapists",
+      "description": "We have international therapists from Uzbekistan, Afghanistan, and Thailand. Choose your therapist based on preference. All are well-trained and certified to provide 100% satisfaction with international massage experience.",
+      "icon": "🌍",
+      "image": "/src/assets/therepist/foriegn.jpg",
+      "expertise": [
+        "Thai massage",
+        "Uzbek techniques",
+        "Afghan healing methods",
+        "Multi-cultural expertise"
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "name": "Private Spa Room",
+      "description": "Completely private treatment rooms ensuring your comfort and confidentiality",
+      "icon": "🚪"
+    },
+    {
+      "name": "Steam Bath",
+      "description": "Rejuvenating steam therapy to open pores and detoxify your body",
+      "icon": "💨"
+    },
+    {
+      "name": "Jacuzzi Bath",
+      "description": "Luxury hot water bath with jet massage for complete relaxation",
+      "icon": "🛁"
+    },
+    {
+      "name": "Sauna",
+      "description": "Traditional sauna for muscle relaxation and detoxification",
+      "icon": "🔥"
+    },
+    {
+      "name": "Hammam",
+      "description": "Turkish-style steam room for deep cleansing and relaxation",
+      "icon": "💆"
+    },
+    {
+      "name": "Shower Facilities",
+      "description": "Modern shower amenities with premium toiletries",
+      "icon": "🚿"
+    }
+  ],
+  "hotelOutlets": [
+    {
+      "name": "JW Marriott Hotel Aerocity",
+      "location": "Aerocity, New Delhi",
+      "description": "One of the best and most luxurious spas in Aerocity. Known for style and comfort with all relaxing therapies. Facilities available in the spa room itself. Perfect for international travelers.",
+      "image": "/api/placeholder/600/400",
+      "price": "From ₹15,999"
+    },
+    {
+      "name": "Novotel New Delhi Aerocity",
+      "location": "Aerocity, New Delhi",
+      "description": "Contemporary and rejuvenating hotel spa offering body massages, aromatherapy, and wellness treatments. Renowned for premium body spa that frees you from tiredness and revitalizes the mind.",
+      "image": "/api/placeholder/600/400",
+      "price": "From ₹15,999"
+    },
+    {
+      "name": "IBIS New Delhi Aerocity",
+      "location": "Aerocity, New Delhi",
+      "description": "Perfect layover luxury right beside the airport. Experience premium Russian Spa menu with Thai, B2B, Nuru, and couple treatments. Spa bundles start at ₹15,999 with first-visit offer at just ₹1,999.",
+      "image": "/api/placeholder/600/400",
+      "price": "From ₹1,999 (First Visit)"
+    },
+    {
+      "name": "The Suryaa New Delhi (NFC)",
+      "location": "New Friends Colony, South Delhi (110025)",
+      "description": "A calm break for body and mind. Features real Russian therapies with therapists ready to melt away tension expertly. Perfect for stress relief and rejuvenation in a tranquil setting.",
+      "image": "/api/placeholder/600/400",
+      "price": "From ₹15,999"
+    },
+    {
+      "name": "Lemon Tree Premier Aerocity",
+      "location": "Aerocity, New Delhi",
+      "description": "Highly recommended for its comfort, excellent service, and professional therapies. With a massage spa in Aerocity, the facility ensures you get the best treatment near your home.",
+      "image": "/api/placeholder/600/400",
+      "price": "From ₹12,000"
+    },
+    {
+      "name": "The Grand New Delhi",
+      "location": "Vasant Kunj, New Delhi",
+      "description": "Offers luxury spa with special massages, body treatments, and wellness care. Perfect destination to relax and indulge in a refreshing experience amidst the city.",
+      "image": "/api/placeholder/600/400",
+      "price": "From ₹12,000"
+    },
+    {
+      "name": "The Park Connaught Place",
+      "location": "Connaught Place, New Delhi",
+      "description": "Experience ultimate relaxation with Thai, Aroma, Nuru, and Couple massages by certified Russian and Thai therapists. Luxury 5-star spa time with first-visit offer at ₹1,999.",
+      "image": "/api/placeholder/600/400",
+      "price": "From ₹1,999 (First Visit)"
+    },
+    {
+      "name": "The Ashok (Chanakyapuri)",
+      "location": "Chanakyapuri, New Delhi",
+      "description": "Upscale escape featuring Russian Spa's best therapies with trained Russian and Thai specialists. Aromatic, B2B, and couple massages in a tranquil setting. Five-star packages from ₹15,999.",
+      "image": "/api/placeholder/600/400",
+      "price": "From ₹1,999 (First Visit)"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Mahipalpur",
+      "description": "Located near Delhi Airport. Prime location offering full service spa in Gurgaon and Mahipalpur with professional therapists.",
+      "status": "Open Mon-Fri",
+      "icon": "📍"
+    },
+    {
+      "name": "Aerocity",
+      "description": "Premium outlet offering full relaxation to international clients at 5-star hotel spas.",
+      "status": "Open Mon-Fri",
+      "icon": "📍"
+    },
+    {
+      "name": "Dwarka",
+      "description": "Premium spa services by certified Russian therapists in a prime location offering full body and specialized massages.",
+      "status": "Open Mon-Fri",
+      "icon": "📍"
+    },
+    {
+      "name": "Lajpat Nagar",
+      "description": "Best spa & massage service in South Delhi. Offering full body, B2B, and Nuru massage options.",
+      "status": "Open Mon-Fri",
+      "icon": "📍"
+    },
+    {
+      "name": "Karol Bagh",
+      "description": "Diverse massage options with Indian and Russian therapists. Customer comfort is our priority.",
+      "status": "Open Mon-Fri",
+      "icon": "📍"
+    }
+  ],
+  "statistics": {
+    "yearsExperience": 5,
+    "branches": 6,
+    "treatmentTypes": 14,
+    "happyClients": 1200
+  }
 }
 
 
