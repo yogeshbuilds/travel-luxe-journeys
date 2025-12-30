@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { getQueries } from "@/lib/api";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -11,7 +11,11 @@ import {
     TableRow,
 } from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
-import Navbar from "@/components/Navbar";
+import { Input } from "@/components/ui/input";
+import { Lock, LogOut } from "lucide-react";
+
+// Simple password for admin access (in production, use proper auth)
+const ADMIN_PASSWORD = "havenoras2024";
 
 const QueryTable = ({ type }: { type: string }) => {
     const [page, setPage] = useState(1);
@@ -108,18 +112,112 @@ const QueryTable = ({ type }: { type: string }) => {
     );
 };
 
+const LoginScreen = ({ onLogin }: { onLogin: () => void }) => {
+    const [password, setPassword] = useState("");
+    const [error, setError] = useState("");
+
+    const handleSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
+        if (password === ADMIN_PASSWORD) {
+            localStorage.setItem("admin_authenticated", "true");
+            onLogin();
+        } else {
+            setError("Incorrect password");
+            setPassword("");
+        }
+    };
+
+    return (
+        <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex items-center justify-center px-4">
+            <div className="w-full max-w-md">
+                <div className="bg-card rounded-2xl shadow-2xl p-8 border border-border/50">
+                    <div className="text-center mb-8">
+                        <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4">
+                            <Lock className="h-8 w-8 text-primary" />
+                        </div>
+                        <h1 className="text-2xl font-serif font-bold text-foreground">Admin Access</h1>
+                        <p className="text-sm text-muted-foreground mt-2">Enter password to continue</p>
+                    </div>
+
+                    <form onSubmit={handleSubmit} className="space-y-4">
+                        <div>
+                            <Input
+                                type="password"
+                                placeholder="Enter admin password"
+                                value={password}
+                                onChange={(e) => {
+                                    setPassword(e.target.value);
+                                    setError("");
+                                }}
+                                className="h-12 text-center text-lg"
+                                autoFocus
+                            />
+                            {error && (
+                                <p className="text-red-500 text-sm text-center mt-2">{error}</p>
+                            )}
+                        </div>
+                        <Button type="submit" className="w-full h-12 text-base">
+                            Login
+                        </Button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    );
+};
+
 const Admin = () => {
+    const [isAuthenticated, setIsAuthenticated] = useState(false);
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        // Check if already authenticated
+        const auth = localStorage.getItem("admin_authenticated");
+        setIsAuthenticated(auth === "true");
+        setIsLoading(false);
+    }, []);
+
+    const handleLogout = () => {
+        localStorage.removeItem("admin_authenticated");
+        setIsAuthenticated(false);
+    };
+
+    if (isLoading) {
+        return <div className="min-h-screen bg-background flex items-center justify-center">Loading...</div>;
+    }
+
+    if (!isAuthenticated) {
+        return <LoginScreen onLogin={() => setIsAuthenticated(true)} />;
+    }
+
     return (
         <div className="min-h-screen bg-background flex flex-col">
-            <Navbar />
-            <div className="container mx-auto py-10 px-4 flex-1">
-                <div className="flex items-center justify-between mb-8">
-                    <h1 className="text-3xl font-serif font-bold">Admin Panel</h1>
-                    <Button onClick={() => fetch('/api/setup').then(r => r.json()).then(d => alert(JSON.stringify(d)))} variant="secondary">
-                        Setup Tables (Run Once)
-                    </Button>
+            {/* Simple Admin Header */}
+            <header className="border-b bg-card">
+                <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+                    <h1 className="text-2xl font-serif font-bold">Havenoras Admin</h1>
+                    <div className="flex items-center gap-3">
+                        <Button
+                            onClick={() => fetch('/api/setup').then(r => r.json()).then(d => alert(JSON.stringify(d)))}
+                            variant="outline"
+                            size="sm"
+                        >
+                            Setup Tables
+                        </Button>
+                        <Button
+                            onClick={handleLogout}
+                            variant="ghost"
+                            size="sm"
+                            className="text-red-600 hover:text-red-700 hover:bg-red-50"
+                        >
+                            <LogOut className="h-4 w-4 mr-2" />
+                            Logout
+                        </Button>
+                    </div>
                 </div>
+            </header>
 
+            <div className="container mx-auto py-8 px-4 flex-1">
                 <Tabs defaultValue="travel" className="w-full">
                     <TabsList className="mb-4 flex flex-wrap h-auto">
                         <TabsTrigger value="travel">Travel Queries</TabsTrigger>
