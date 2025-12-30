@@ -456,10 +456,23 @@ const RussianSpa = () => {
                 Ready to Rejuvenate?
               </h2>
               <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto">
-                Chat with us on WhatsApp to book your spa session today and experience the ultimate relaxation.
+                Book your spa session today and experience the ultimate relaxation.
                 New customers get special discounts on first-time bookings!
               </p>
-              <div className="flex justify-center">
+              <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <button className="inline-flex justify-center items-center gap-2 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 text-sm font-medium shadow-sm transition">
+                      Book Your Spa Session
+                    </button>
+                  </DialogTrigger>
+                  <DialogContent>
+                    <DialogHeader>
+                      <DialogTitle>Book a Spa Session</DialogTitle>
+                    </DialogHeader>
+                    <SpaEnquiryForm />
+                  </DialogContent>
+                </Dialog>
                 <a
                   href="https://wa.me/918813887813?text=Hi, I'm interested in booking a spa session. Please provide details about available packages and timings."
                   target="_blank"
