@@ -1,4 +1,6 @@
 import { useState, FormEvent } from "react";
+import { toast } from "sonner";
+import { submitQuery } from "@/lib/api";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import luxuryCar from "@/assets/luxury-car.jpg";
@@ -48,7 +50,7 @@ const LuxuryRide = () => {
               Luxury Car Ride
             </h1>
             <p className="mt-2 md:mt-3 text-xs md:text-sm lg:text-base text-background/90 max-w-2xl text-center">
-              Experience premium chauffeur-driven luxury vehicles across Delhi NCR. 
+              Experience premium chauffeur-driven luxury vehicles across Delhi NCR.
               From romantic dates to grand celebrations, we have the perfect car for every occasion.
             </p>
           </div>
@@ -66,9 +68,9 @@ const LuxuryRide = () => {
                   Premium Luxury Car Rides for Every Occasion
                 </h1>
                 <p className="text-sm md:text-base text-muted-foreground max-w-3xl">
-                  Discover the perfect way to travel in luxury. Our premium chauffeur-driven vehicles 
-                  are designed for those who appreciate finer things in life. Whether it's a romantic 
-                  getaway, a business meeting, or a grand celebration, we have the perfect car and 
+                  Discover the perfect way to travel in luxury. Our premium chauffeur-driven vehicles
+                  are designed for those who appreciate finer things in life. Whether it's a romantic
+                  getaway, a business meeting, or a grand celebration, we have the perfect car and
                   professional chauffeur to make your experience unforgettable.
                 </p>
               </header>
@@ -503,7 +505,7 @@ const LuxuryRide = () => {
                 Ready for Your Luxury Experience?
               </h2>
               <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto">
-                Book your premium chauffeur-driven luxury car ride today. 
+                Book your premium chauffeur-driven luxury car ride today.
                 Fast confirmation, transparent pricing, and unforgettable service.
               </p>
               <div className="flex flex-col gap-3 sm:flex-row justify-center">
@@ -543,19 +545,29 @@ const LuxuryRideForm = ({ defaultCar }: { defaultCar?: string }) => {
   const [occasion, setOccasion] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    console.log("Luxury ride booking request", {
-      name,
-      mobile,
-      car,
-      pickupLocation,
-      occasion,
-      message,
-    });
-    alert(
-      "Thank you for your booking request! We'll confirm your reservation and contact you shortly with final details and pricing."
-    );
+    try {
+      await submitQuery('ride', {
+        name,
+        mobile,
+        car,
+        pickup_location: pickupLocation,
+        occasion,
+        message,
+      });
+
+      toast.success(
+        "Thank you for your booking request! We'll confirm your reservation and contact you shortly with final details and pricing."
+      );
+      // Reset form or close dialog if needed
+      setName("");
+      setMobile("");
+      setPickupLocation("");
+      setMessage("");
+    } catch (error) {
+      toast.error("Failed to submit request. Please try again.");
+    }
   };
 
   return (
@@ -642,7 +654,7 @@ const LuxuryRideForm = ({ defaultCar }: { defaultCar?: string }) => {
         Submit Booking Request
       </button>
       <p className="text-xs text-muted-foreground text-center">
-        Confirmation will be sent to your phone within 30 minutes. 
+        Confirmation will be sent to your phone within 30 minutes.
         We'll provide transparent pricing and final itinerary details.
       </p>
     </form>

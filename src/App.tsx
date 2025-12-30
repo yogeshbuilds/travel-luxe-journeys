@@ -10,6 +10,7 @@ import NotFound from "./pages/NotFound";
 import LuxuryRide from "./pages/LuxuryRide";
 import RussianSpa from "./pages/RussianSpa";
 import CelebrityMeetup from "./pages/CelebrityMeetup";
+import Admin from "./pages/Admin";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/luxury-ride" element={<LuxuryRide />} />
           <Route path="/russian-spa" element={<RussianSpa />} />
           <Route path="/celebrity-meetup" element={<CelebrityMeetup />} />
+          <Route path="/admin" element={<Admin />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

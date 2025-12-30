@@ -1,4 +1,6 @@
 import { useState, FormEvent } from "react";
+import { toast } from "sonner";
+import { submitQuery } from "@/lib/api";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import celebrityMeetup from "@/assets/celebrity-meetup.jpg";
@@ -155,16 +157,29 @@ const CelebrityMeetup = () => {
 };
 
 export default CelebrityMeetup;
- 
+
 const CelebrityMeetupForm = () => {
   const [name, setName] = useState("");
   const [mobile, setMobile] = useState("");
   const [celebrity, setCelebrity] = useState("");
   const [requirement, setRequirement] = useState(meetupData.requirements[0]);
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    console.log("Celebrity meetup request", { name, mobile, celebrity, requirement });
+    try {
+      await submitQuery('meetup', {
+        name,
+        mobile,
+        celebrity,
+        requirement
+      });
+      toast.success("Request submitted successfully! We'll contact you soon.");
+      setName("");
+      setMobile("");
+      setCelebrity("");
+    } catch (error) {
+      toast.error("Failed to submit request. Please try again.");
+    }
   };
 
   return (

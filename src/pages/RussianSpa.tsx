@@ -1,4 +1,6 @@
 import { useState, FormEvent } from "react";
+import { toast } from "sonner";
+import { submitQuery } from "@/lib/api";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import luxurySpa from "@/assets/luxury-spa.jpg";
@@ -486,10 +488,23 @@ const SpaEnquiryForm = ({ defaultLocation }: { defaultLocation?: string }) => {
   const [preferredLocation, setPreferredLocation] = useState(defaultLocation || "Mahipalpur");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    console.log("Spa enquiry", { name, mobile, preferredPackage, preferredLocation, message });
-    alert("Thank you! We'll contact you shortly with available slots and special offers.");
+    try {
+      await submitQuery('spa', {
+        name,
+        mobile,
+        preferred_package: preferredPackage,
+        preferred_location: preferredLocation,
+        message
+      });
+      toast.success("Thank you! We'll contact you shortly with available slots and special offers.");
+      setName("");
+      setMobile("");
+      setMessage("");
+    } catch (error) {
+      toast.error("Failed to submit enquiry. Please try again.");
+    }
   };
 
   return (

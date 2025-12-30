@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { toast } from "sonner";
+import { submitQuery } from "@/lib/api";
 import {
   Dialog,
   DialogContent,
@@ -187,18 +189,46 @@ const Destination = () => {
                         <DialogHeader>
                           <DialogTitle>Request a Call Back</DialogTitle>
                         </DialogHeader>
-                        <form className="grid gap-4 py-4" onSubmit={(e) => {
+                        <form className="grid gap-4 py-4" onSubmit={async (e) => {
                           e.preventDefault();
-                          // Handle form submission here
-                          alert("Thank you! We will call you back shortly.");
+                          const formData = new FormData(e.currentTarget);
+                          const data = {
+                            name: formData.get('name') as string,
+                            mobile: formData.get('mobile') as string,
+                            package_name: selectedPackage
+                          };
+
+                          try {
+                            const submitBtn = (e.currentTarget.querySelector('button[type="submit"]') as HTMLButtonElement);
+                            const originalText = submitBtn.innerText;
+                            submitBtn.disabled = true;
+                            submitBtn.innerText = "Submitting...";
+
+                            await submitQuery('travel', data);
+                            toast.success("Thank you! We'll call you back shortly.");
+
+                            // Close dialog? Ideally yes but for now just reset
+                            (e.target as HTMLFormElement).reset();
+                            submitBtn.innerText = "Submitted";
+                            setTimeout(() => {
+                              submitBtn.disabled = false;
+                              submitBtn.innerText = originalText;
+                            }, 2000);
+
+                          } catch (error) {
+                            toast.error("Something went wrong. Please try again.");
+                            const submitBtn = (e.currentTarget.querySelector('button[type="submit"]') as HTMLButtonElement);
+                            submitBtn.disabled = false;
+                            submitBtn.innerText = "Submit Request";
+                          }
                         }}>
                           <div className="grid gap-2">
                             <Label htmlFor="name">Name</Label>
-                            <Input id="name" placeholder="Enter your name" required />
+                            <Input id="name" name="name" placeholder="Enter your name" required />
                           </div>
                           <div className="grid gap-2">
                             <Label htmlFor="mobile">Mobile Number</Label>
-                            <Input id="mobile" placeholder="Enter your mobile number" type="tel" required />
+                            <Input id="mobile" name="mobile" placeholder="Enter your mobile number" type="tel" required />
                           </div>
                           <div className="grid gap-2">
                             <Label>Selected Package</Label>
