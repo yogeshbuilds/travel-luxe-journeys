@@ -1,13 +1,11 @@
 import { Pool } from 'pg';
 
 const pool = new Pool({
-    host: process.env.PGHOST,
-    database: process.env.PGDATABASE,
-    user: process.env.PGUSER,
-    password: process.env.PGPASSWORD,
-    port: 5432,
+    connectionString: process.env.DATABASE_URL
+        ? process.env.DATABASE_URL
+        : `postgres://${process.env.PGUSER}:${process.env.PGPASSWORD}@${process.env.PGHOST}:5432/${process.env.PGDATABASE}?sslmode=require`,
     ssl: {
-        rejectUnauthorized: false, // Often needed for hosted Postgres like Neon/Vercel
+        rejectUnauthorized: false,
     },
 });
 
