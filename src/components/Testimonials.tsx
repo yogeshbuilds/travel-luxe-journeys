@@ -8,28 +8,32 @@ const testimonials = [
         location: "London, UK",
         comment: "The Dubai desert safari was absolutely magical! Havenoras arranged everything perfectly. The sunset views and the private dinner were highlights of our trip.",
         rating: 5,
-        initials: "SJ"
+        initials: "SJ",
+        category: "Luxury Travel"
     },
     {
-        name: "Rajesh Kumar",
+        name: "Ankita Verma",
+        location: "New Delhi, India",
+        comment: "Booked the Diamond Spa package for my anniversary. Every moment was special—from the welcome tea to the body wrap. Worth every rupee!",
+        rating: 5,
+        initials: "AV",
+        category: "Russian Spa"
+    },
+    {
+        name: "Rohan Mehta",
+        location: "Delhi, India",
+        comment: "Arriving at my wedding in the Rolls Royce Regent was a dream come true. The chauffeur was incredibly professional and the car was spotless.",
+        rating: 5,
+        initials: "RM",
+        category: "Luxury Ride"
+    },
+    {
+        name: "Vikram Malhotra",
         location: "Mumbai, India",
-        comment: "Our family trip to Singapore was seamless thanks to the team. The itinerary was well-balanced for both kids and adults. Highly featured and recommended!",
+        comment: "We hired a celebrity for our store launch through this platform. The coordination was seamless and the impact on our brand visibility was instant.",
         rating: 5,
-        initials: "RK"
-    },
-    {
-        name: "Emily Chen",
-        location: "New York, USA",
-        comment: "Thailand's beaches are stunning, but the service from Havenoras made it exceptional. From airport transfers to the best local guides, everything was top-notch.",
-        rating: 5,
-        initials: "EC"
-    },
-    {
-        name: "Michael Brown",
-        location: "Sydney, Australia",
-        comment: "A truly premium experience in Switzerland. The hotels were exquisite and the logistics were flawless. I've never felt more relaxed on a holiday.",
-        rating: 5,
-        initials: "MB"
+        initials: "VM",
+        category: "Celebrity Meetup"
     }
 ];
 
@@ -42,7 +46,7 @@ const Testimonials = () => {
                         What Our Customers Say
                     </h2>
                     <p className="text-muted-foreground max-w-2xl mx-auto">
-                        Real stories from travelers who have experienced the world with Havenoras
+                        Real stories from clients who have experienced our premium services
                     </p>
                 </div>
 
@@ -65,7 +69,12 @@ const Testimonials = () => {
                                     </Avatar>
                                     <div>
                                         <h4 className="font-semibold text-sm text-foreground">{testimonial.name}</h4>
-                                        <p className="text-xs text-muted-foreground">{testimonial.location}</p>
+                                        <div className="flex flex-col">
+                                            <p className="text-xs text-muted-foreground">{testimonial.location}</p>
+                                            <span className="text-[10px] font-medium text-primary mt-0.5 uppercase tracking-wide">
+                                                {testimonial.category}
+                                            </span>
+                                        </div>
                                     </div>
                                 </div>
 

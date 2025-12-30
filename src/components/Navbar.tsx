@@ -16,8 +16,7 @@ const Navbar = () => {
         {/* Icon menu - mobile first */}
         <div className="flex items-center gap-1.5 md:gap-3 rounded-full bg-white/10 px-2.5 py-1.5 md:px-3 md:py-1.5 border border-white/10">
           <NavLink
-            to="/"
-            end
+            to="/travel"
             className={({ isActive }) =>
               [
                 "inline-flex flex-col items-center justify-center px-3 md:px-3.5 py-1 rounded-full transition text-[10px] md:text-xs",
