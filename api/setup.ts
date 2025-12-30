@@ -2,8 +2,15 @@ import type { VercelRequest, VercelResponse } from '@vercel/node';
 import pool from './db';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
+    console.log("Setup: Starting...");
     try {
+        console.log("Setup: Attempting to connect to pool...");
         const client = await pool.connect();
+        console.log("Setup: Connected to pool successfully.");
+
+        // ... (tables creation) ...
+
+        console.log("Setup: Running queries...");
 
         // Travel Queries Table
         await client.query(`
@@ -55,10 +62,19 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       );
     `);
 
+        console.log("Setup: Tables created.");
         client.release();
         return res.status(200).json({ message: 'Tables created successfully' });
-    } catch (error) {
-        console.error('Setup error:', error);
-        return res.status(500).json({ error: 'Failed to create tables', details: error });
+    } catch (error: any) {
+        console.error('Setup error details:', {
+            message: error.message,
+            stack: error.stack,
+            code: error.code
+        });
+        // Send back a simpler error that won't break JSON parsing if possible, or just the message
+        return res.status(500).json({
+            error: 'Failed to create tables',
+            details: error.message || String(error)
+        });
     }
 }
