@@ -3,6 +3,7 @@ import { toast } from "sonner";
 import { submitQuery } from "@/lib/api";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import MobileFloatingButtons from "@/components/MobileFloatingButtons";
 import luxurySpa from "@/assets/luxury-spa.jpg";
 // Spa Assets Images
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
@@ -487,7 +488,8 @@ const RussianSpa = () => {
           </div>
         </section>
       </main>
-      <Footer />
+      <Footer pageType="spa" />
+      <MobileFloatingButtons />
     </div>
   );
 };

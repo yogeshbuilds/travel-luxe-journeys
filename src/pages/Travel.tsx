@@ -9,7 +9,9 @@ import AssistanceBanner from "@/components/AssistanceBanner";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Footer from "@/components/Footer";
 import Testimonials from "@/components/Testimonials";
+import MobileFloatingButtons from "@/components/MobileFloatingButtons";
 import { ChevronDown } from "lucide-react";
+
 
 const Travel = () => {
     return (
@@ -73,7 +75,8 @@ const Travel = () => {
                 </div>
             </section>
 
-            <Footer />
+            <Footer pageType="travel" />
+            <MobileFloatingButtons />
         </div>
     );
 };

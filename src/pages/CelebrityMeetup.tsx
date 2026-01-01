@@ -3,6 +3,7 @@ import { toast } from "sonner";
 import { submitQuery } from "@/lib/api";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import MobileFloatingButtons from "@/components/MobileFloatingButtons";
 import celebrityMeetup from "@/assets/celebrity-meetup.jpg";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { ChevronDown } from "lucide-react";
@@ -151,7 +152,8 @@ const CelebrityMeetup = () => {
           </div>
         </section>
       </main>
-      <Footer />
+      <Footer pageType="meetup" />
+      <MobileFloatingButtons />
     </div>
   );
 };

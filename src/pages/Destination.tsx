@@ -17,6 +17,7 @@ import { Label } from "@/components/ui/label";
 import { ArrowLeft, Check, Clock, MapPin, ChevronDown } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import MobileFloatingButtons from "@/components/MobileFloatingButtons";
 import offersData from "@/data/offers.json";
 import heroDubai from "@/assets/hero-dubai.jpg";
 import heroUsa from "@/assets/hero-usa.jpg";
@@ -62,7 +63,8 @@ const Destination = () => {
             </Button>
           </div>
         </div>
-        <Footer />
+        <Footer pageType="travel" />
+        <MobileFloatingButtons />
       </>
     );
   }
@@ -248,7 +250,8 @@ const Destination = () => {
 
 
 
-      <Footer />
+      <Footer pageType="travel" />
+      <MobileFloatingButtons />
     </>
   );
 };

@@ -3,6 +3,7 @@ import { toast } from "sonner";
 import { submitQuery } from "@/lib/api";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import MobileFloatingButtons from "@/components/MobileFloatingButtons";
 import luxuryCar from "@/assets/luxury-car.jpg";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { ChevronDown } from "lucide-react";
@@ -530,7 +531,8 @@ const LuxuryRide = () => {
           </div>
         </section>
       </main>
-      <Footer />
+      <Footer pageType="ride" />
+      <MobileFloatingButtons />
     </div>
   );
 };
