@@ -193,17 +193,7 @@ const Footer = ({ pageType = "home" }: FooterProps) => {
           <p className="text-xs md:text-sm text-primary-foreground/60">
             Powered by <span className="font-semibold">Amit Enterprises</span> | Office Address: Near Indian Oil Petrol Pump, Nandgaon, Mathura 281403
           </p>
-          <p className="text-xs md:text-sm text-primary-foreground/60">
-            Designed & Developed by{" "}
-            <a
-              href="https://www.linkedin.com/in/yogeshbuilds/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold hover:text-secondary transition-colors underline underline-offset-2"
-            >
-              Yogesh Chaudhary
-            </a>
-          </p>
+
         </div>
       </div>
     </footer>
